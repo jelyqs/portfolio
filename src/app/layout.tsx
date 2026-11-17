@@ -51,8 +51,8 @@ export const metadata: Metadata = {
     images: [
       {
         url: DATA.bannerUrl,
-        width: 1024,
-        height: 390,
+        width: 3360,
+        height: 1280,
         alt: `${DATA.name} — ${DATA.jobTitle}`,
       },
     ],

@@ -1,0 +1,256 @@
+{
+  "hero": {
+    "jobTitle": "Full-stack Software Engineer & Freelancer",
+    "description": "7+ years experience in software development. Passionate about building scalable and efficient web applications."
+  },
+  "about": {
+    "summary": "I'm a seasoned Software Engineer with over 7 years of hands-on experience in designing, developing, and deploying high-quality web and mobile applications. My passion lies in solving complex problems and building robust, scalable solutions from the ground up.\n\nMy expertise spans the full stack, from creating intuitive user interfaces with **React / Next.js** to engineering powerful back-end systems with **PHP / Laravel** and **Node.js / Express / NestJS**. I am also proficient in leveraging **AWS services** for scalable cloud infrastructure and have strong **DevOps** skills in managing and automating deployments on **Linux (Ubuntu) servers**.\n\n- 🔭 I'm currently working on building scalable microservices and enhancing cloud infrastructure.\n- 🌱 I'm currently learning more about Serverless Architecture and advanced CI/CD pipelines.\n- 💬 Ask me about **anything** related to web development!\n- 📫 How to reach me: **jely.big@gmail.com** | **thunguyen.developer@gmail.com**\n- ⚡ Fun fact: I believe the best code is simple, elegant, and easy to maintain.\n"
+  },
+  "stats": {
+    "yearsExperience": "Years Experience",
+    "productionApps": "Production Apps",
+    "countries": "Countries",
+    "companiesServed": "Companies Served"
+  },
+  "skills": {
+    "title": "Technical Skills",
+    "description": "Technologies I work with in production environments",
+    "categories": {
+      "languages": "Languages",
+      "practices": "Engineering Practices",
+      "backend": "Backend",
+      "frontend": "Frontend",
+      "databases": "Databases & ORM",
+      "cms": "CMS & E-commerce",
+      "cloud": "Cloud",
+      "devops": "DevOps & Servers",
+      "api": "APIs, Auth & Payments",
+      "ai": "AI",
+      "libraries": "Libraries & Integrations",
+      "testing": "Testing",
+      "tools": "Tools",
+      "soft": "Soft Skills"
+    },
+    "softSkills": {
+      "problemInvestigation": "Problem investigation",
+      "presentationSkills": "Presentation skills",
+      "projectManagement": "Project management",
+      "solutionDesign": "Solution design",
+      "technicalManagement": "Technical management"
+    }
+  },
+  "work": {
+    "description": "My professional journey — full-time roles and independent projects",
+    "fullTime": "Full-time",
+    "partTime": "Part-time",
+    "freelance": "Freelance",
+    "roles": {
+      "fullstack": "Full-stack Software Engineer",
+      "php": "PHP Software Engineer",
+      "itSupport": "IT Support"
+    },
+    "kozocom": [
+      "Build and maintain web platforms for Japanese clients in e-commerce, corporate catering, and renewable-energy management",
+      "Ship features and fix production bugs across the stack with NestJS, React, and AWS serverless (Amplify, AppSync, Lambda, DynamoDB)",
+      "Maintain management tools and sync product data across WooCommerce, Amazon, and Shopify",
+      "Customize Shopify storefronts and integrate third-party packages, plugins, and APIs",
+      "Work with AWS services including IAM, Amplify, Lambda, API Gateway, and CloudWatch",
+      "Set up an AI-assisted workflow with Claude Code for specs, QA, and code review",
+      "Boosted productivity and shortened codebase investigation",
+      "Caught bugs earlier and kept project documentation consistent"
+    ],
+    "uoy": [
+      "Built and maintained tooling for a POD print business serving US/EU markets",
+      "Synced product data between WooCommerce, Amazon, and Shopify",
+      "Customized WordPress landing pages and Shopify interfaces",
+      "Wrote shortcodes and plugins for cart and order flows",
+      "Integrated Google Sheets, Google Analytics, and Facebook Ads APIs"
+    ],
+    "linkhouse": [
+      "Built the HR module of a real-estate CRM: attendance, payroll, commission, leave, and overtime",
+      "Built customer management with profiles and loyalty points",
+      "Built project management with booking and listings",
+      "Delivered REST APIs for the mobile app"
+    ],
+    "mwg": ["Provided software technical support"]
+  },
+  "freelance": {
+    "title": "Freelance & Side Projects",
+    "description": "Running alongside full-time",
+    "badge": "Concurrent",
+    "ndaNote": "Project names have been changed for NDA reasons.",
+    "vietnam": {
+      "description": "Built social-service, file-download, boarding-house, and shop products for Vietnamese clients, plus a friend debt-tracking app.",
+      "projects": {
+        "socialServicePanel": {
+          "title": "Social Service Panel",
+          "description": "Social-service platform for TikTok, YouTube, and Facebook orders, with a wallet, proxy inventory, and seller tools. A browser extension shows when seller orders are completed."
+        },
+        "fileDownload": {
+          "title": "File Download Service",
+          "description": "File download service with membership packages, download history, referrals, and withdrawals."
+        },
+        "boardingHouse": {
+          "title": "Boarding House Manager",
+          "description": "Boarding-house system for buildings, rooms, check-in and check-out, deposits, invoices, and repair costs."
+        },
+        "onlineShop": {
+          "title": "Online Shop",
+          "description": "Online shop with product pages, a cart, checkout, VietQR payment, and order history."
+        },
+        "friendDebt": {
+          "title": "Friend Debt Tracker",
+          "description": "Mobile app for tracking money lent between friends, with confirmations, reminders, and an admin console."
+        },
+        "socialId": {
+          "title": "Social ID Lookup",
+          "description": "Browser extension that reads a Facebook profile, page, or group URL and returns its ID."
+        }
+      }
+    },
+    "australia": {
+      "description": "Shipped a digital storefront, an eSIM shop, car valuation, a horoscope product, and automation tools for Australian clients.",
+      "projects": {
+        "digitalStorefront": {
+          "title": "Digital Storefront",
+          "description": "Storefront for accounts, courses, and downloadable content, with cart, PayPal checkout, gift codes, and an admin console. A NestJS API serves the web app and mobile clients. A chat bot answers from shop data with RAG."
+        },
+        "esimShop": {
+          "title": "eSIM Shop",
+          "description": "eSIM shop with country catalogs, checkout, top-ups, order history, referrals, loyalty, and an admin for products, providers, and commissions."
+        },
+        "horoscope": {
+          "title": "Horoscope Studio",
+          "description": "Horoscope product for chart lookups, predictions, feng shui, lunar dates, and paid readings. OpenAI writes the interpretations from chart data with RAG."
+        },
+        "vehicle": {
+          "title": "Vehicle Valuation",
+          "description": "Car valuation flow covering vehicle details, photo listings, and payment history. OpenAI writes the appraisal from the vehicle data and photos with RAG."
+        },
+        "proxyBot": {
+          "title": "Proxy Sales Bot",
+          "description": "Telegram bot for selling and managing proxies, with wallet top-up, orders, and an admin dashboard."
+        },
+        "accessCode": {
+          "title": "Access Code Forwarder",
+          "description": "Service that scans household account emails and forwards access codes to matching customers."
+        },
+        "tts": {
+          "title": "Text-to-Speech",
+          "description": "Text-to-speech app that generates voices from written text."
+        },
+        "transcription": {
+          "title": "Short-Video Transcription",
+          "description": "Command-line pipeline that transcribes short-form videos."
+        },
+        "landing": {
+          "title": "Service Marketing Site",
+          "description": "Marketing site for website and design packages, with a portfolio, FAQs, and a contact form."
+        }
+      }
+    },
+    "japan": {
+      "description": "Shipped full-stack products for Japanese clients: a creator marketplace, LED ad bidding, an AI auto-reply SaaS, catalog OCR, rental operations, and Amazon selling tools.",
+      "projects": {
+        "creator": {
+          "title": "Creator Marketplace",
+          "description": "Creator platform for paid livestreams, VOD sales, 1:1 video calls, fan clubs, tickets, and Stripe billing including konbini."
+        },
+        "billboard": {
+          "title": "Billboard Marketplace",
+          "description": "Billboard ad marketplace with time-slot bidding, video upload and approval, invoices, and an admin dashboard."
+        },
+        "autoReply": {
+          "title": "AI Auto-Reply",
+          "description": "AI auto-reply SaaS that replies on Slack, LINE, Chatwork, and Facebook Messenger, then creates Google Calendar tasks from the conversation."
+        },
+        "ocr": {
+          "title": "Catalog OCR",
+          "description": "Extracts structured fields from Japanese product catalogs — name, SKU, character, release date, and price — then exports CSV and Excel."
+        },
+        "rental": {
+          "title": "Rental Operations",
+          "description": "Property operations system covering contracts, partners, delinquency, remittance, renewal fees, and collection-agency workflows."
+        },
+        "listings": {
+          "title": "Cross-Border Listings",
+          "description": "Japan–US Amazon selling tool with regional storefronts for the US, Australia, Canada, Singapore, and eBay — listings, price updates, and sales management."
+        },
+        "subBot": {
+          "title": "Subscription Bot",
+          "description": "Discord bot that sells monthly plans through Stripe, assigns premium roles from webhooks, and keeps a grandfathered free tier."
+        }
+      }
+    },
+    "singapore": {
+      "description": "Built booking, HR, lending, fleet, and operations products for Singapore clients, plus company and marketing sites.",
+      "projects": {
+        "booking": {
+          "title": "Service Booking",
+          "description": "Service booking platform with a customer web app, a mobile app, a vendor portal, and an admin console. Covers one-time and recurring bookings, quotes, invoices, GST, and technician scheduling."
+        },
+        "hr": {
+          "title": "HR Platform",
+          "description": "HR platform for payroll and payslips, leave, hiring and interviews, organization structure, and desk and room booking."
+        },
+        "field": {
+          "title": "Field Operations",
+          "description": "Operations system for door projects: customers, employees, phased jobs, inventory, products and services, warranty and maintenance, and GST reports."
+        },
+        "fleet": {
+          "title": "Fleet Operations",
+          "description": "Fleet and courier operations for drivers, vehicles, route planning, customers, promotions, and finance."
+        },
+        "loan": {
+          "title": "Loan Platform",
+          "description": "Loan platform for applications, offers and counter-offers, repayments, appointments, and Singpass sign-in."
+        },
+        "company": {
+          "title": "Company Site",
+          "description": "Company marketing site with home, services, and contact, shipped as a React frontend and a WordPress site."
+        },
+        "marketing": {
+          "title": "Marketing Sites",
+          "description": "Marketing sites built and maintained on WordPress."
+        }
+      }
+    }
+  },
+  "education": {
+    "degree": "Computer Science"
+  },
+  "projects": {
+    "cozy": {
+      "title": "Cozy Game Assets (itch.io)",
+      "description": "Original cozy pixel icons, UI kits, combat VFX, and game audio packs — made with code, no generative AI art. Free minis and full packs for indie developers."
+    },
+    "friendDebt": {
+      "title": "Friend Debt Tracker",
+      "description": "Mobile app for tracking money lent between friends: two-sided confirmations, auto reminders, history, and 30-day trash. Includes a web admin for users, debts, and violation reports."
+    },
+    "paypal": {
+      "title": "PayPal Sandbox Autofill",
+      "description": "Chrome extension (MV3) that fills PayPal sandbox test-card data into checkout forms — no more copy-pasting sandbox emails and passwords for every test run."
+    },
+    "wedding": {
+      "title": "Online Wedding Invitation",
+      "description": "Online wedding invitation in two editions (deep red / navy) for the 29 Dec 2026 wedding: program, maps, and a separate guestbook per edition. Deployed on Cloudflare Pages, fast on mobile."
+    },
+    "digital": {
+      "title": "Digital Storefront",
+      "description": "Storefront for accounts, courses, and downloadable content, with cart, PayPal checkout, gift codes, and an admin console. A NestJS API serves web and mobile clients, and a chat bot answers from shop data with RAG. Built for an Australian client."
+    },
+    "esimShop": {
+      "title": "eSIM Shop",
+      "description": "eSIM shop with country catalogs, checkout, top-ups, order history, referrals, loyalty, and an admin for products, providers, and commissions. Built for an Australian client."
+    },
+    "autoReply": {
+      "title": "AI Auto-Reply",
+      "description": "AI auto-reply SaaS that replies on Slack, LINE, Chatwork, and Facebook Messenger, then creates Google Calendar tasks from the conversation. Built for a Japanese client."
+    },
+    "booking": {
+      "title": "Service Booking",
+      "description": "Service booking platform with a customer web app, a mobile app, a vendor portal, and an admin console. Covers one-time and recurring bookings, quotes, invoices, GST, and technician scheduling. Built for a Singapore client."
+    }
+  }
+}

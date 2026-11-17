@@ -2,37 +2,58 @@ import Navbar from "@/components/navbar";
 import { ThemeProvider } from "@/components/theme-provider";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { DATA } from "@/data/resume";
+import { LocaleProvider } from "@/i18n/locale-provider";
 import { cn } from "@/lib/utils";
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import { FlickeringGrid } from "@/components/magicui/flickering-grid";
+import { FlickeringGrid } from "@/components/magicui/flickering-grid-lazy";
 
 const geist = Geist({
   subsets: ["latin"],
   variable: "--font-sans",
   weight: ["400", "500", "600", "700"],
+  display: "swap",
 });
 
 const geistMono = Geist_Mono({
   subsets: ["latin"],
-  weight: ["300", "400", "500", "600", "700"],
+  weight: ["400", "500"],
   variable: "--font-mono",
+  display: "swap",
+  preload: false,
 });
 
 export const metadata: Metadata = {
   metadataBase: new URL(DATA.url),
   title: {
-    default: DATA.name,
+    default: `${DATA.name} | ${DATA.jobTitle}`,
     template: `%s | ${DATA.name}`,
   },
   description: DATA.description,
+  icons: {
+    icon: [
+      { url: "/favicon/favicon.ico", sizes: "48x48" },
+      { url: "/favicon/favicon.svg", type: "image/svg+xml" },
+      { url: "/favicon/favicon-96x96.png", sizes: "96x96", type: "image/png" },
+    ],
+    apple: [{ url: "/favicon/apple-touch-icon.png", sizes: "180x180" }],
+  },
+  manifest: "/favicon/site.webmanifest",
   openGraph: {
     title: `${DATA.name}`,
     description: DATA.description,
     url: DATA.url,
     siteName: `${DATA.name}`,
-    locale: "en_US",
+    images: [
+      {
+        url: DATA.bannerUrl,
+        width: 1024,
+        height: 390,
+        alt: `${DATA.name} — ${DATA.jobTitle}`,
+      },
+    ],
+    locale: "vi_VN",
     type: "website",
   },
   robots: {
@@ -48,7 +69,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     title: `${DATA.name}`,
+    description: DATA.description,
     card: "summary_large_image",
+    images: [DATA.bannerUrl],
   },
   verification: {
     google: "",
@@ -67,27 +90,31 @@ export default function RootLayout({
         className={cn(
           "min-h-screen bg-background font-sans antialiased relative",
           geist.variable,
-          geistMono.variable
+          geistMono.variable,
         )}
+        suppressHydrationWarning
       >
-        <ThemeProvider attribute="class" defaultTheme="light">
-          <TooltipProvider delayDuration={0}>
-            <div className="absolute inset-0 top-0 left-0 right-0 h-[100px] overflow-hidden z-0">
-              <FlickeringGrid
-                className="h-full w-full"
-                squareSize={2}
-                gridGap={2}
-                style={{
-                  maskImage: "linear-gradient(to bottom, black, transparent)",
-                  WebkitMaskImage: "linear-gradient(to bottom, black, transparent)",
-                }}
-              />
-            </div>
-            <div className="relative z-10 max-w-2xl mx-auto py-12 pb-24 sm:py-24 px-6">
-              {children}
-            </div>
-            <Navbar />
-          </TooltipProvider>
+        <ThemeProvider attribute="class" defaultTheme="dark">
+          <LocaleProvider>
+            <TooltipProvider delayDuration={0}>
+              <div className="absolute inset-0 top-0 left-0 right-0 h-25 overflow-hidden z-0">
+                <FlickeringGrid
+                  className="h-full w-full"
+                  squareSize={4}
+                  gridGap={4}
+                  style={{
+                    maskImage: "linear-gradient(to bottom, black, transparent)",
+                    WebkitMaskImage:
+                      "linear-gradient(to bottom, black, transparent)",
+                  }}
+                />
+              </div>
+              <div className="relative z-10 max-w-2xl mx-auto py-12 pb-24 sm:py-24 px-6">
+                {children}
+              </div>
+              <Navbar />
+            </TooltipProvider>
+          </LocaleProvider>
         </ThemeProvider>
       </body>
     </html>

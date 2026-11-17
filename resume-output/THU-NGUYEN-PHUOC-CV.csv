@@ -1,0 +1,401 @@
+﻿Section,Item,Field,Value
+Profile,NGUYEN PHUOC THU,Date of birth,"Feb 03, 1995"
+Profile,NGUYEN PHUOC THU,Gender,Male
+Profile,NGUYEN PHUOC THU,Phone,+84359399320
+Profile,NGUYEN PHUOC THU,Email,jely.big@gmail.com
+Profile,NGUYEN PHUOC THU,Address,"Da Nang, Viet Nam"
+Profile,NGUYEN PHUOC THU,Portfolio,https://thunguyenit.com
+Profile,NGUYEN PHUOC THU,Gitlab,https://gitlab.com/jely.big
+Profile,NGUYEN PHUOC THU,Github,https://github.com/jelyqs
+Objective,,,"I'm a seasoned Software Engineer with over 7 years of hands-on experience in designing, developing, and deploying high-quality web and mobile applications. My passion lies in solving complex problems and building robust, scalable solutions from the ground up. My expertise spans the full stack, from creating intuitive user interfaces with React / Next.js to engineering powerful back-end systems with PHP / Laravel and Node.js / Express / NestJS. I am also proficient in leveraging AWS services for scalable cloud infrastructure and have strong DevOps skills in managing and automating deployments on Linux (Ubuntu) servers."
+Education,Vietnam - Korea University of Information and Communication Technology,Degree,Computer Science
+Education,Vietnam - Korea University of Information and Communication Technology,Start,2013
+Education,Vietnam - Korea University of Information and Communication Technology,End,2016
+Work,"Kozocom Vietnam Co., Ltd",Start,October 2022
+Work,"Kozocom Vietnam Co., Ltd",End,Present
+Work,"Kozocom Vietnam Co., Ltd / Full-stack Software Engineer",Start,October 2022
+Work,"Kozocom Vietnam Co., Ltd / Full-stack Software Engineer",End,Present
+Work,"Kozocom Vietnam Co., Ltd / Full-stack Software Engineer",Responsibility,"Build and maintain web platforms for Japanese clients in e-commerce, corporate catering, and renewable-energy management."
+Work,"Kozocom Vietnam Co., Ltd / Full-stack Software Engineer",Responsibility,"Ship features and fix production bugs across the stack with NestJS, React, and AWS serverless (Amplify, AppSync, Lambda, DynamoDB)."
+Work,"Kozocom Vietnam Co., Ltd / Full-stack Software Engineer",Responsibility,"Maintain management tools and sync product data across WooCommerce, Amazon, and Shopify."
+Work,"Kozocom Vietnam Co., Ltd / Full-stack Software Engineer",Responsibility,"Customize Shopify storefronts and integrate third-party packages, plugins, and APIs."
+Work,"Kozocom Vietnam Co., Ltd / Full-stack Software Engineer",Responsibility,"Work with AWS services including IAM, Amplify, Lambda, API Gateway, and CloudWatch."
+Work,"Kozocom Vietnam Co., Ltd / Full-stack Software Engineer",Responsibility,"Set up an AI-assisted workflow with Claude Code for specs, QA, and code review."
+Work,"Kozocom Vietnam Co., Ltd / Full-stack Software Engineer",Responsibility,Boosted productivity and shortened codebase investigation.
+Work,"Kozocom Vietnam Co., Ltd / Full-stack Software Engineer",Responsibility,Caught bugs earlier and kept project documentation consistent.
+Work,"Kozocom Vietnam Co., Ltd / Full-stack Software Engineer",Technical,TypeScript
+Work,"Kozocom Vietnam Co., Ltd / Full-stack Software Engineer",Technical,React/Next.js
+Work,"Kozocom Vietnam Co., Ltd / Full-stack Software Engineer",Technical,PHP/Laravel
+Work,"Kozocom Vietnam Co., Ltd / Full-stack Software Engineer",Technical,Node.js/NestJS
+Work,"Kozocom Vietnam Co., Ltd / Full-stack Software Engineer",Technical,WordPress
+Work,"Kozocom Vietnam Co., Ltd / Full-stack Software Engineer",Technical,Shopify
+Work,"Kozocom Vietnam Co., Ltd / Full-stack Software Engineer",Technical,Docker
+Work,"Kozocom Vietnam Co., Ltd / Full-stack Software Engineer",Technical,AWS
+Work,"Kozocom Vietnam Co., Ltd / Full-stack Software Engineer",Technical,REST API
+Work,"Kozocom Vietnam Co., Ltd / Full-stack Software Engineer",Technical,API Gateway
+Work,"Kozocom Vietnam Co., Ltd / Full-stack Software Engineer",Technical,Amplify
+Work,"Kozocom Vietnam Co., Ltd / Full-stack Software Engineer",Technical,AppSync
+Work,"Kozocom Vietnam Co., Ltd / Full-stack Software Engineer",Technical,Lambda
+Work,"Kozocom Vietnam Co., Ltd / Full-stack Software Engineer",Technical,CloudWatch
+Work,"Kozocom Vietnam Co., Ltd / Full-stack Software Engineer",Database,MySQL
+Work,"Kozocom Vietnam Co., Ltd / Full-stack Software Engineer",Database,PostgreSQL
+Work,"Kozocom Vietnam Co., Ltd / Full-stack Software Engineer",Database,DynamoDB
+Work,UOYMedia,Start,June 2021
+Work,UOYMedia,End,September 2022
+Work,UOYMedia / PHP Software Engineer,Start,June 2021
+Work,UOYMedia / PHP Software Engineer,End,September 2022
+Work,UOYMedia / PHP Software Engineer,Responsibility,Built and maintained tooling for a POD print business serving US/EU markets.
+Work,UOYMedia / PHP Software Engineer,Responsibility,"Synced product data between WooCommerce, Amazon, and Shopify."
+Work,UOYMedia / PHP Software Engineer,Responsibility,Customized WordPress landing pages and Shopify interfaces.
+Work,UOYMedia / PHP Software Engineer,Responsibility,Wrote shortcodes and plugins for cart and order flows.
+Work,UOYMedia / PHP Software Engineer,Responsibility,"Integrated Google Sheets, Google Analytics, and Facebook Ads APIs."
+Work,UOYMedia / PHP Software Engineer,Technical,JavaScript
+Work,UOYMedia / PHP Software Engineer,Technical,PHP/Laravel
+Work,UOYMedia / PHP Software Engineer,Technical,WordPress
+Work,UOYMedia / PHP Software Engineer,Technical,Shopify
+Work,UOYMedia / PHP Software Engineer,Technical,Docker
+Work,UOYMedia / PHP Software Engineer,Technical,REST API
+Work,UOYMedia / PHP Software Engineer,Database,MySQL
+Work,LINKHOUSE,Start,March 2019
+Work,LINKHOUSE,End,May 2021
+Work,LINKHOUSE / PHP Software Engineer,Start,March 2019
+Work,LINKHOUSE / PHP Software Engineer,End,May 2021
+Work,LINKHOUSE / PHP Software Engineer,Responsibility,"Built the HR module of a real-estate CRM: attendance, payroll, commission, leave, and overtime."
+Work,LINKHOUSE / PHP Software Engineer,Responsibility,Built customer management with profiles and loyalty points.
+Work,LINKHOUSE / PHP Software Engineer,Responsibility,Built project management with booking and listings.
+Work,LINKHOUSE / PHP Software Engineer,Responsibility,Delivered REST APIs for the mobile app.
+Work,LINKHOUSE / PHP Software Engineer,Technical,JavaScript
+Work,LINKHOUSE / PHP Software Engineer,Technical,PHP/Laravel
+Work,LINKHOUSE / PHP Software Engineer,Technical,Firebase
+Work,LINKHOUSE / PHP Software Engineer,Technical,REST API
+Work,LINKHOUSE / PHP Software Engineer,Database,MySQL
+Work,MWG,Start,August 2016
+Work,MWG,End,June 2018
+Work,MWG / IT Support,Start,August 2016
+Work,MWG / IT Support,End,June 2018
+Work,MWG / IT Support,Responsibility,Provided software technical support.
+Work,MWG / IT Support,Technical,IT Support
+Work,MWG / IT Support,Technical,Software
+Freelance,Freelance — Vietnam,Employment type,Freelance
+Freelance,Freelance — Vietnam,Description,"Built social-service, file-download, boarding-house, and shop products for Vietnamese clients, plus a friend debt-tracking app."
+Freelance,Freelance — Vietnam,Start,2018
+Freelance,Freelance — Vietnam,End,Present
+Freelance,Freelance — Vietnam,Project,Social Service Panel
+Freelance,Freelance — Vietnam / Social Service Panel,Description,"Social-service platform for TikTok, YouTube, and Facebook orders, with a wallet, proxy inventory, and seller tools. A browser extension shows when seller orders are completed."
+Freelance,Freelance — Vietnam,Project,File Download Service
+Freelance,Freelance — Vietnam / File Download Service,Description,"File download service with membership packages, download history, referrals, and withdrawals."
+Freelance,Freelance — Vietnam,Project,Boarding House Manager
+Freelance,Freelance — Vietnam / Boarding House Manager,Description,"Boarding-house system for buildings, rooms, check-in and check-out, deposits, invoices, and repair costs."
+Freelance,Freelance — Vietnam,Project,Online Shop
+Freelance,Freelance — Vietnam / Online Shop,Description,"Online shop with product pages, a cart, checkout, VietQR payment, and order history."
+Freelance,Freelance — Vietnam,Project,Friend Debt Tracker
+Freelance,Freelance — Vietnam / Friend Debt Tracker,Description,"Mobile app for tracking money lent between friends, with confirmations, reminders, and an admin console."
+Freelance,Freelance — Vietnam,Project,Social ID Lookup
+Freelance,Freelance — Vietnam / Social ID Lookup,Description,"Browser extension that reads a Facebook profile, page, or group URL and returns its ID."
+Freelance,Freelance — Vietnam,Technical,PHP/Laravel
+Freelance,Freelance — Vietnam,Technical,React Native
+Freelance,Freelance — Vietnam,Technical,Firebase
+Freelance,Freelance — Vietnam,Technical,JavaScript
+Freelance,Freelance — Vietnam,Technical,Tailwind CSS
+Freelance,Freelance — Vietnam,Technical,Docker
+Freelance,Freelance — Vietnam,Technical,Chrome Extension
+Freelance,Freelance — Vietnam,Database,MySQL
+Freelance,Freelance — Australia,Employment type,Freelance
+Freelance,Freelance — Australia,Description,"Shipped a digital storefront, an eSIM shop, car valuation, a horoscope product, and automation tools for Australian clients."
+Freelance,Freelance — Australia,Start,March 2025
+Freelance,Freelance — Australia,End,Present
+Freelance,Freelance — Australia,Project,Digital Storefront
+Freelance,Freelance — Australia / Digital Storefront,Description,"Storefront for accounts, courses, and downloadable content, with cart, PayPal checkout, gift codes, and an admin console. A NestJS API serves the web app and mobile clients. A chat bot answers from shop data with RAG."
+Freelance,Freelance — Australia,Project,eSIM Shop
+Freelance,Freelance — Australia / eSIM Shop,Description,"eSIM shop with country catalogs, checkout, top-ups, order history, referrals, loyalty, and an admin for products, providers, and commissions."
+Freelance,Freelance — Australia,Project,Horoscope Studio
+Freelance,Freelance — Australia / Horoscope Studio,Description,"Horoscope product for chart lookups, predictions, feng shui, lunar dates, and paid readings. OpenAI writes the interpretations from chart data with RAG."
+Freelance,Freelance — Australia,Project,Vehicle Valuation
+Freelance,Freelance — Australia / Vehicle Valuation,Description,"Car valuation flow covering vehicle details, photo listings, and payment history. OpenAI writes the appraisal from the vehicle data and photos with RAG."
+Freelance,Freelance — Australia,Project,Proxy Sales Bot
+Freelance,Freelance — Australia / Proxy Sales Bot,Description,"Telegram bot for selling and managing proxies, with wallet top-up, orders, and an admin dashboard."
+Freelance,Freelance — Australia,Project,Access Code Forwarder
+Freelance,Freelance — Australia / Access Code Forwarder,Description,Service that scans household account emails and forwards access codes to matching customers.
+Freelance,Freelance — Australia,Project,Text-to-Speech
+Freelance,Freelance — Australia / Text-to-Speech,Description,Text-to-speech app that generates voices from written text.
+Freelance,Freelance — Australia,Project,Short-Video Transcription
+Freelance,Freelance — Australia / Short-Video Transcription,Description,Command-line pipeline that transcribes short-form videos.
+Freelance,Freelance — Australia,Project,Service Marketing Site
+Freelance,Freelance — Australia / Service Marketing Site,Description,"Marketing site for website and design packages, with a portfolio, FAQs, and a contact form."
+Freelance,Freelance — Australia,Technical,Next.js
+Freelance,Freelance — Australia,Technical,NestJS
+Freelance,Freelance — Australia,Technical,Python
+Freelance,Freelance — Australia,Technical,Prisma
+Freelance,Freelance — Australia,Technical,PayPal
+Freelance,Freelance — Australia,Technical,Telegram
+Freelance,Freelance — Australia,Technical,Cloudflare R2
+Freelance,Freelance — Australia,Technical,OpenAI
+Freelance,Freelance — Australia,Technical,RAG
+Freelance,Freelance — Australia,Database,MySQL
+Freelance,Freelance — Australia,Database,PostgreSQL
+Freelance,Freelance — Australia,Database,Redis
+Freelance,Freelance — Japan,Employment type,Freelance
+Freelance,Freelance — Japan,Description,"Shipped full-stack products for Japanese clients: a creator marketplace, LED ad bidding, an AI auto-reply SaaS, catalog OCR, rental operations, and Amazon selling tools."
+Freelance,Freelance — Japan,Start,May 2025
+Freelance,Freelance — Japan,End,June 2026
+Freelance,Freelance — Japan,Project,Creator Marketplace
+Freelance,Freelance — Japan / Creator Marketplace,Description,"Creator platform for paid livestreams, VOD sales, 1:1 video calls, fan clubs, tickets, and Stripe billing including konbini."
+Freelance,Freelance — Japan,Project,Billboard Marketplace
+Freelance,Freelance — Japan / Billboard Marketplace,Description,"Billboard ad marketplace with time-slot bidding, video upload and approval, invoices, and an admin dashboard."
+Freelance,Freelance — Japan,Project,AI Auto-Reply
+Freelance,Freelance — Japan / AI Auto-Reply,Description,"AI auto-reply SaaS that replies on Slack, LINE, Chatwork, and Facebook Messenger, then creates Google Calendar tasks from the conversation."
+Freelance,Freelance — Japan,Project,Catalog OCR
+Freelance,Freelance — Japan / Catalog OCR,Description,"Extracts structured fields from Japanese product catalogs — name, SKU, character, release date, and price — then exports CSV and Excel."
+Freelance,Freelance — Japan,Project,Rental Operations
+Freelance,Freelance — Japan / Rental Operations,Description,"Property operations system covering contracts, partners, delinquency, remittance, renewal fees, and collection-agency workflows."
+Freelance,Freelance — Japan,Project,Cross-Border Listings
+Freelance,Freelance — Japan / Cross-Border Listings,Description,"Japan–US Amazon selling tool with regional storefronts for the US, Australia, Canada, Singapore, and eBay — listings, price updates, and sales management."
+Freelance,Freelance — Japan,Project,Subscription Bot
+Freelance,Freelance — Japan / Subscription Bot,Description,"Discord bot that sells monthly plans through Stripe, assigns premium roles from webhooks, and keeps a grandfathered free tier."
+Freelance,Freelance — Japan,Technical,React/TypeScript
+Freelance,Freelance — Japan,Technical,Node.js/Express
+Freelance,Freelance — Japan,Technical,Python/FastAPI
+Freelance,Freelance — Japan,Technical,Stripe
+Freelance,Freelance — Japan,Technical,AWS
+Freelance,Freelance — Japan,Technical,WebRTC
+Freelance,Freelance — Japan,Technical,Tailwind CSS
+Freelance,Freelance — Japan,Technical,OpenAI
+Freelance,Freelance — Japan,Database,MongoDB
+Freelance,Freelance — Japan,Database,PostgreSQL
+Freelance,Freelance — Singapore,Employment type,Part-time
+Freelance,Freelance — Singapore,Description,"Built booking, HR, lending, fleet, and operations products for Singapore clients, plus company and marketing sites."
+Freelance,Freelance — Singapore,Start,November 2023
+Freelance,Freelance — Singapore,End,December 2024
+Freelance,Freelance — Singapore,Project,Service Booking
+Freelance,Freelance — Singapore / Service Booking,Description,"Service booking platform with a customer web app, a mobile app, a vendor portal, and an admin console. Covers one-time and recurring bookings, quotes, invoices, GST, and technician scheduling."
+Freelance,Freelance — Singapore,Project,HR Platform
+Freelance,Freelance — Singapore / HR Platform,Description,"HR platform for payroll and payslips, leave, hiring and interviews, organization structure, and desk and room booking."
+Freelance,Freelance — Singapore,Project,Field Operations
+Freelance,Freelance — Singapore / Field Operations,Description,"Operations system for door projects: customers, employees, phased jobs, inventory, products and services, warranty and maintenance, and GST reports."
+Freelance,Freelance — Singapore,Project,Fleet Operations
+Freelance,Freelance — Singapore / Fleet Operations,Description,"Fleet and courier operations for drivers, vehicles, route planning, customers, promotions, and finance."
+Freelance,Freelance — Singapore,Project,Loan Platform
+Freelance,Freelance — Singapore / Loan Platform,Description,"Loan platform for applications, offers and counter-offers, repayments, appointments, and Singpass sign-in."
+Freelance,Freelance — Singapore,Project,Company Site
+Freelance,Freelance — Singapore / Company Site,Description,"Company marketing site with home, services, and contact, shipped as a React frontend and a WordPress site."
+Freelance,Freelance — Singapore,Project,Marketing Sites
+Freelance,Freelance — Singapore / Marketing Sites,Description,Marketing sites built and maintained on WordPress.
+Freelance,Freelance — Singapore,Technical,React/TypeScript
+Freelance,Freelance — Singapore,Technical,React Native
+Freelance,Freelance — Singapore,Technical,Node.js/Express
+Freelance,Freelance — Singapore,Technical,PHP/Laravel
+Freelance,Freelance — Singapore,Technical,WordPress
+Freelance,Freelance — Singapore,Technical,Stripe
+Freelance,Freelance — Singapore,Technical,Docker
+Freelance,Freelance — Singapore,Technical,CodeIgniter
+Freelance,Freelance — Singapore,Database,MySQL
+Freelance,Freelance — Singapore,Database,Redis
+Freelance,,NDA note,Project names have been changed for NDA reasons.
+Skills,Languages,Skill,JavaScript
+Skills,Languages,Skill,TypeScript
+Skills,Languages,Skill,PHP
+Skills,Languages,Skill,Python
+Skills,Languages,Skill,Bash Shell
+Skills,Engineering Practices,Skill,OOP
+Skills,Engineering Practices,Skill,Clean Code
+Skills,Engineering Practices,Skill,"Design Patterns (Factory, Singleton, Observer)"
+Skills,Backend,Skill,Laravel
+Skills,Backend,Skill,Node.js
+Skills,Backend,Skill,Express
+Skills,Backend,Skill,NestJS
+Skills,Backend,Skill,FastAPI
+Skills,Backend,Skill,CodeIgniter
+Skills,Frontend,Skill,React
+Skills,Frontend,Skill,Next.js
+Skills,Frontend,Skill,React Native
+Skills,Frontend,Skill,Vue
+Skills,Frontend,Skill,Redux
+Skills,Frontend,Skill,Apollo Client
+Skills,Frontend,Skill,Tailwind CSS
+Skills,Frontend,Skill,shadcn/ui
+Skills,Frontend,Skill,MUI
+Skills,Frontend,Skill,Bootstrap
+Skills,Frontend,Skill,SASS
+Skills,Frontend,Skill,HTML5
+Skills,Frontend,Skill,CSS3
+Skills,Frontend,Skill,Responsive Web Design
+Skills,Frontend,Skill,Vite
+Skills,Frontend,Skill,Webpack
+Skills,Frontend,Skill,Babel
+Skills,Frontend,Skill,Ajax
+Skills,Databases & ORM,Skill,MySQL
+Skills,Databases & ORM,Skill,PostgreSQL
+Skills,Databases & ORM,Skill,MongoDB
+Skills,Databases & ORM,Skill,Redis
+Skills,Databases & ORM,Skill,DynamoDB
+Skills,Databases & ORM,Skill,SQLite
+Skills,Databases & ORM,Skill,AWS Aurora
+Skills,Databases & ORM,Skill,Elasticsearch
+Skills,Databases & ORM,Skill,Prisma
+Skills,Databases & ORM,Skill,Eloquent
+Skills,Databases & ORM,Skill,Doctrine
+Skills,Databases & ORM,Skill,Sequelize
+Skills,Databases & ORM,Skill,TypeORM
+Skills,CMS & E-commerce,Skill,WordPress
+Skills,CMS & E-commerce,Skill,Shopify
+Skills,Cloud,Skill,AWS
+Skills,Cloud,Skill,EC2
+Skills,Cloud,Skill,Lambda
+Skills,Cloud,Skill,API Gateway
+Skills,Cloud,Skill,AppSync
+Skills,Cloud,Skill,Amplify
+Skills,Cloud,Skill,RDS
+Skills,Cloud,Skill,AWS S3
+Skills,Cloud,Skill,CloudWatch
+Skills,Cloud,Skill,Load Balancer
+Skills,Cloud,Skill,Auto Scaling
+Skills,Cloud,Skill,AWS CDK
+Skills,Cloud,Skill,AWS SAM
+Skills,Cloud,Skill,Serverless Framework
+Skills,Cloud,Skill,AWS IVS
+Skills,Cloud,Skill,Amazon Chime
+Skills,Cloud,Skill,Firebase
+Skills,Cloud,Skill,Cloud Functions
+Skills,DevOps & Servers,Skill,Docker
+Skills,DevOps & Servers,Skill,CI/CD
+Skills,DevOps & Servers,Skill,GitHub Actions
+Skills,DevOps & Servers,Skill,CircleCI
+Skills,DevOps & Servers,Skill,Jenkins
+Skills,DevOps & Servers,Skill,Terraform
+Skills,DevOps & Servers,Skill,Ansible
+Skills,DevOps & Servers,Skill,"Linux (Ubuntu, CentOS, Amazon Linux)"
+Skills,DevOps & Servers,Skill,VPS setup (Ubuntu 20.x – 26.x)
+Skills,DevOps & Servers,Skill,Nginx
+Skills,DevOps & Servers,Skill,Apache2
+Skills,DevOps & Servers,Skill,PHP-FPM
+Skills,DevOps & Servers,Skill,PM2
+Skills,DevOps & Servers,Skill,Supervisor
+Skills,DevOps & Servers,Skill,Crontab
+Skills,DevOps & Servers,Skill,Prometheus
+Skills,DevOps & Servers,Skill,Grafana
+Skills,DevOps & Servers,Skill,cPanel
+Skills,"APIs, Auth & Payments",Skill,REST API
+Skills,"APIs, Auth & Payments",Skill,GraphQL
+Skills,"APIs, Auth & Payments",Skill,WebSocket
+Skills,"APIs, Auth & Payments",Skill,WebRTC
+Skills,"APIs, Auth & Payments",Skill,Swagger
+Skills,"APIs, Auth & Payments",Skill,JWT
+Skills,"APIs, Auth & Payments",Skill,OAuth2
+Skills,"APIs, Auth & Payments",Skill,Auth0
+Skills,"APIs, Auth & Payments",Skill,Stripe
+Skills,"APIs, Auth & Payments",Skill,PayPal
+Skills,AI,Skill,OpenAI
+Skills,AI,Skill,RAG
+Skills,AI,Skill,Prompt Engineering
+Skills,Libraries & Integrations,Skill,Chrome Extension
+Skills,Libraries & Integrations,Skill,Telegram Bot
+Skills,Libraries & Integrations,Skill,Discord.js
+Skills,Libraries & Integrations,Skill,mediasoup
+Skills,Libraries & Integrations,Skill,ElevenLabs
+Skills,Testing,Skill,Unit test
+Skills,Testing,Skill,Performance testing
+Skills,Testing,Skill,Jest
+Skills,Tools,Skill,Git
+Skills,Tools,Skill,VS Code
+Skills,Tools,Skill,Cursor
+Skills,Tools,Skill,GitHub Copilot
+Skills,Tools,Skill,Postman
+Skills,Tools,Skill,Altair GraphQL
+Skills,Tools,Skill,Laravel Valet
+Skills,Tools,Skill,npm
+Skills,Tools,Skill,Yarn
+Skills,Tools,Skill,pnpm
+Skills,Tools,Skill,Jira
+Skills,Tools,Skill,Backlog
+Skills,Tools,Skill,Notion
+Skills,Tools,Skill,Figma
+Skills,Tools,Skill,Adobe XD
+Skills,Soft Skills,Skill,Problem investigation
+Skills,Soft Skills,Skill,Presentation skills
+Skills,Soft Skills,Skill,Project management
+Skills,Soft Skills,Skill,Solution design
+Skills,Soft Skills,Skill,Technical management
+Project,Cozy Game Assets (itch.io),Dates,2024 - Present
+Project,Cozy Game Assets (itch.io),Source,data
+Project,Cozy Game Assets (itch.io),Description,"Original cozy pixel icons, UI kits, combat VFX, and game audio packs — made with code, no generative AI art. Free minis and full packs for indie developers."
+Project,Cozy Game Assets (itch.io),Customer,Indie developers (itch.io)
+Project,Cozy Game Assets (itch.io),Team size,1
+Project,Cozy Game Assets (itch.io),My position,Creator / Developer
+Project,Cozy Game Assets (itch.io),Technology,Pixel Art
+Project,Cozy Game Assets (itch.io),Technology,Game Audio
+Project,Cozy Game Assets (itch.io),Technology,UI Kits
+Project,Cozy Game Assets (itch.io),Technology,itch.io
+Project,Friend Debt Tracker,Dates,October 2026
+Project,Friend Debt Tracker,Source,data
+Project,Friend Debt Tracker,Description,"Mobile app for tracking money lent between friends: two-sided confirmations, auto reminders, history, and 30-day trash. Includes a web admin for users, debts, and violation reports."
+Project,Friend Debt Tracker,Customer,Personal client
+Project,Friend Debt Tracker,Team size,1
+Project,Friend Debt Tracker,My position,Developer
+Project,Friend Debt Tracker,Technology,React Native
+Project,Friend Debt Tracker,Technology,TypeScript
+Project,Friend Debt Tracker,Technology,Firebase
+Project,Friend Debt Tracker,Technology,FCM
+Project,PayPal Sandbox Autofill,Dates,October 2026
+Project,PayPal Sandbox Autofill,Source,data
+Project,PayPal Sandbox Autofill,Description,Chrome extension (MV3) that fills PayPal sandbox test-card data into checkout forms — no more copy-pasting sandbox emails and passwords for every test run.
+Project,PayPal Sandbox Autofill,Customer,Personal project
+Project,PayPal Sandbox Autofill,Team size,1
+Project,PayPal Sandbox Autofill,My position,Developer
+Project,PayPal Sandbox Autofill,Technology,TypeScript
+Project,PayPal Sandbox Autofill,Technology,Chrome Extension
+Project,Online Wedding Invitation,Dates,October 2026
+Project,Online Wedding Invitation,Source,data
+Project,Online Wedding Invitation,Description,"Online wedding invitation in two editions (deep red / navy) for the 29 Dec 2026 wedding: program, maps, and a separate guestbook per edition. Deployed on Cloudflare Pages, fast on mobile."
+Project,Online Wedding Invitation,Customer,Private client (wedding)
+Project,Online Wedding Invitation,Team size,1
+Project,Online Wedding Invitation,My position,Developer
+Project,Online Wedding Invitation,Technology,HTML
+Project,Online Wedding Invitation,Technology,CSS
+Project,Online Wedding Invitation,Technology,JavaScript
+Project,Online Wedding Invitation,Technology,Cloudflare Pages
+Project,Digital Storefront,Dates,2025
+Project,Digital Storefront,Source,data
+Project,Digital Storefront,Description,"Storefront for accounts, courses, and downloadable content, with cart, PayPal checkout, gift codes, and an admin console. A NestJS API serves web and mobile clients, and a chat bot answers from shop data with RAG. Built for an Australian client."
+Project,Digital Storefront,Customer,Australian client
+Project,Digital Storefront,Team size,1
+Project,Digital Storefront,My position,Developer
+Project,Digital Storefront,Technology,Next.js
+Project,Digital Storefront,Technology,NestJS
+Project,Digital Storefront,Technology,PostgreSQL
+Project,Digital Storefront,Technology,Prisma
+Project,Digital Storefront,Technology,PayPal
+Project,Digital Storefront,Technology,RAG
+Project,eSIM Shop,Dates,2025
+Project,eSIM Shop,Source,data
+Project,eSIM Shop,Description,"eSIM shop with country catalogs, checkout, top-ups, order history, referrals, loyalty, and an admin for products, providers, and commissions. Built for an Australian client."
+Project,eSIM Shop,Customer,Australian client
+Project,eSIM Shop,Team size,1
+Project,eSIM Shop,My position,Developer
+Project,eSIM Shop,Technology,Next.js
+Project,eSIM Shop,Technology,MySQL
+Project,eSIM Shop,Technology,Prisma
+Project,eSIM Shop,Technology,Cloudflare R2
+Project,AI Auto-Reply,Dates,2025
+Project,AI Auto-Reply,Source,data
+Project,AI Auto-Reply,Description,"AI auto-reply SaaS that replies on Slack, LINE, Chatwork, and Facebook Messenger, then creates Google Calendar tasks from the conversation. Built for a Japanese client."
+Project,AI Auto-Reply,Customer,Japanese client
+Project,AI Auto-Reply,Team size,1
+Project,AI Auto-Reply,My position,Developer
+Project,AI Auto-Reply,Technology,React
+Project,AI Auto-Reply,Technology,TypeScript
+Project,AI Auto-Reply,Technology,Express
+Project,AI Auto-Reply,Technology,MongoDB
+Project,AI Auto-Reply,Technology,Stripe
+Project,AI Auto-Reply,Technology,OpenAI
+Project,Service Booking,Dates,2023
+Project,Service Booking,Source,data
+Project,Service Booking,Description,"Service booking platform with a customer web app, a mobile app, a vendor portal, and an admin console. Covers one-time and recurring bookings, quotes, invoices, GST, and technician scheduling. Built for a Singapore client."
+Project,Service Booking,Customer,Singapore client
+Project,Service Booking,Team size,1
+Project,Service Booking,My position,Developer
+Project,Service Booking,Technology,React
+Project,Service Booking,Technology,TypeScript
+Project,Service Booking,Technology,React Native
+Project,Service Booking,Technology,Node.js
+Project,Service Booking,Technology,MySQL
+Project,Service Booking,Technology,Stripe

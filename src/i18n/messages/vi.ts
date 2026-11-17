@@ -1,0 +1,32 @@
+import overlay from "./overlays/vi.json";
+
+export const messages = {
+  ui: {
+    home: "Trang chủ",
+    language: "Ngôn ngữ",
+    theme: "Giao diện",
+    about: "Giới thiệu",
+    education: "Học vấn",
+    experience: "Kinh nghiệm",
+    resume: "CV",
+    download: "Tải xuống",
+    showLess: "Thu gọn",
+    more: "+{count} nữa",
+    projectsCount: "{count} dự án",
+    projectsCountPlural: "{count} dự án",
+    clientsCount: "{count} khách hàng",
+    clientsCountPlural: "{count} khách hàng",
+    contact: "Liên hệ",
+    getInTouch: "Liên hệ với tôi",
+    contactBodyBefore: "Muốn trò chuyện? Nhắn cho tôi trên",
+    contactBodyOr: "hoặc email",
+    contactBodyAfter: ". Tôi sẽ phản hồi khi có thể.",
+    myProjects: "Dự án của tôi",
+    projectsHeading: "Xem các công việc mới nhất",
+    projectsIntro:
+      "Tôi đã tham gia nhiều dự án, từ website đơn giản đến ứng dụng web phức tạp. Dưới đây là một vài dự án tôi yêu thích.",
+    greeting: "Xin chào, tôi là {name}",
+    present: "Hiện tại",
+  },
+  ...overlay,
+} as const;

@@ -1,0 +1,260 @@
+{
+  "hero": {
+    "jobTitle": "Kỹ sư Full-stack & Freelancer",
+    "description": "Hơn 7 năm kinh nghiệm phát triển phần mềm. Đam mê xây dựng ứng dụng web có khả năng mở rộng và hiệu quả."
+  },
+  "stats": {
+    "yearsExperience": "Năm kinh nghiệm",
+    "productionApps": "Ứng dụng production",
+    "countries": "Quốc gia",
+    "companiesServed": "Công ty đã phục vụ"
+  },
+  "about": {
+    "summary": "Tôi là Kỹ sư Phần mềm với hơn 7 năm kinh nghiệm thực chiến trong thiết kế, phát triển và triển khai ứng dụng web và mobile chất lượng cao. Tôi đam mê giải quyết bài toán phức tạp và xây dựng giải pháp vững chắc, có thể mở rộng từ đầu.\n\nChuyên môn của tôi trải dài full stack, từ giao diện trực quan với **React / Next.js** đến hệ thống back-end mạnh mẽ với **PHP / Laravel** và **Node.js / Express / NestJS**. Tôi cũng thành thạo **dịch vụ AWS** cho hạ tầng cloud và có kỹ năng **DevOps** mạnh trong quản lý và tự động hóa triển khai trên **máy chủ Linux (Ubuntu)**.\n\n- 🔭 Hiện đang xây dựng microservices có khả năng mở rộng và nâng cấp hạ tầng cloud.\n- 🌱 Đang tìm hiểu thêm về kiến trúc Serverless và pipeline CI/CD nâng cao.\n- 💬 Hỏi tôi về **bất cứ điều gì** liên quan đến phát triển web!\n- 📫 Liên hệ: **jely.big@gmail.com** | **thunguyen.developer@gmail.com**\n- ⚡ Sự thật thú vị: Tôi tin rằng code tốt nhất là đơn giản, thanh lịch và dễ bảo trì.\n"
+  },
+  "skills": {
+    "title": "Kỹ năng kỹ thuật",
+    "description": "Công nghệ tôi sử dụng trong môi trường production",
+    "categories": {
+      "languages": "Ngôn ngữ lập trình",
+      "practices": "Thực hành kỹ thuật",
+      "backend": "Backend",
+      "frontend": "Frontend",
+      "databases": "Cơ sở dữ liệu & ORM",
+      "cms": "CMS & Thương mại điện tử",
+      "cloud": "Cloud",
+      "devops": "DevOps & Máy chủ",
+      "api": "API, Xác thực & Thanh toán",
+      "ai": "AI",
+      "libraries": "Thư viện & Tích hợp",
+      "testing": "Kiểm thử",
+      "tools": "Công cụ",
+      "soft": "Kỹ năng mềm"
+    },
+    "softSkills": {
+      "problemInvestigation": "Điều tra vấn đề",
+      "presentationSkills": "Kỹ năng thuyết trình",
+      "projectManagement": "Quản lý dự án",
+      "solutionDesign": "Thiết kế giải pháp",
+      "technicalManagement": "Quản lý kỹ thuật"
+    }
+  },
+  "work": {
+    "description": "Hành trình nghề nghiệp — công việc toàn thời gian và dự án độc lập",
+    "fullTime": "Toàn thời gian",
+    "partTime": "Bán thời gian",
+    "freelance": "Freelance",
+    "roles": {
+      "fullstack": "Kỹ sư Full-stack",
+      "php": "Kỹ sư PHP",
+      "itSupport": "Hỗ trợ IT"
+    },
+    "kozocom": [
+      "Xây dựng và bảo trì nền tảng web cho khách hàng Nhật trong thương mại điện tử, suất ăn doanh nghiệp và quản lý năng lượng tái tạo",
+      "Triển khai tính năng và sửa lỗi production trên toàn stack với NestJS, React và AWS serverless (Amplify, AppSync, Lambda, DynamoDB)",
+      "Duy trì công cụ quản lý và đồng bộ dữ liệu sản phẩm giữa WooCommerce, Amazon và Shopify",
+      "Tùy biến storefront Shopify và tích hợp package, plugin và API của bên thứ ba",
+      "Làm việc với dịch vụ AWS gồm IAM, Amplify, Lambda, API Gateway và CloudWatch",
+      "Thiết lập quy trình hỗ trợ AI với Claude Code cho spec, QA và code review",
+      "Tăng năng suất và rút ngắn thời gian khảo sát codebase",
+      "Phát hiện lỗi sớm hơn và giữ tài liệu dự án nhất quán"
+    ],
+    "uoy": [
+      "Xây dựng và bảo trì công cụ cho doanh nghiệp in POD phục vụ thị trường Mỹ/EU",
+      "Đồng bộ dữ liệu sản phẩm giữa WooCommerce, Amazon và Shopify",
+      "Tùy biến landing page WordPress và giao diện Shopify",
+      "Viết shortcode và plugin cho luồng giỏ hàng và đơn hàng",
+      "Tích hợp Google Sheets, Google Analytics và API Facebook Ads"
+    ],
+    "linkhouse": [
+      "Xây dựng module HR cho CRM bất động sản: chấm công, lương, hoa hồng, nghỉ phép và làm thêm",
+      "Xây dựng quản lý khách hàng với hồ sơ và điểm thưởng",
+      "Xây dựng quản lý dự án với đặt chỗ và danh sách",
+      "Cung cấp REST API cho ứng dụng mobile"
+    ],
+    "mwg": ["Hỗ trợ kỹ thuật phần mềm"]
+  },
+  "freelance": {
+    "title": "Freelance & Dự án phụ",
+    "description": "Song song với công việc toàn thời gian",
+    "badge": "Đồng thời",
+    "ndaNote": "Tên dự án đã được đổi vì lý do NDA.",
+    "vietnam": {
+      "description": "Xây dựng sản phẩm dịch vụ mạng xã hội, tải file, quản lý nhà trọ và cửa hàng cho khách Việt, cùng app theo dõi nợ bạn bè.",
+      "projects": {
+        "socialServicePanel": {
+          "title": "Bảng điều khiển dịch vụ MXH",
+          "description": "Nền tảng dịch vụ mạng xã hội cho đơn TikTok, YouTube và Facebook, có ví, kho proxy và công cụ seller. Extension trình duyệt báo khi đơn seller hoàn tất."
+        },
+        "fileDownload": {
+          "title": "Dịch vụ tải file",
+          "description": "Dịch vụ tải file với gói thành viên, lịch sử tải, giới thiệu và rút tiền."
+        },
+        "boardingHouse": {
+          "title": "Quản lý nhà trọ",
+          "description": "Hệ thống nhà trọ cho tòa nhà, phòng, check-in/check-out, đặt cọc, hóa đơn và chi phí sửa chữa."
+        },
+        "onlineShop": {
+          "title": "Cửa hàng online",
+          "description": "Cửa hàng online với trang sản phẩm, giỏ hàng, thanh toán VietQR và lịch sử đơn."
+        },
+        "friendDebt": {
+          "title": "Theo dõi nợ bạn bè",
+          "description": "Ứng dụng mobile theo dõi tiền cho vay giữa bạn bè, có xác nhận, nhắc nhở và bảng quản trị."
+        },
+        "socialId": {
+          "title": "Tra cứu ID MXH",
+          "description": "Extension trình duyệt đọc URL profile, page hoặc group Facebook và trả về ID."
+        }
+      }
+    },
+    "australia": {
+      "description": "Triển khai storefront số, cửa hàng eSIM, định giá xe, sản phẩm tử vi và công cụ tự động hóa cho khách Úc.",
+      "projects": {
+        "digitalStorefront": {
+          "title": "Cửa hàng số",
+          "description": "Storefront cho tài khoản, khóa học và nội dung tải về, có giỏ hàng, thanh toán PayPal, mã quà và bảng quản trị. API NestJS phục vụ web và mobile. Chat bot trả lời từ dữ liệu cửa hàng với RAG."
+        },
+        "esimShop": {
+          "title": "Cửa hàng eSIM",
+          "description": "Cửa hàng eSIM với catalog theo quốc gia, thanh toán, nạp tiền, lịch sử đơn, giới thiệu, loyalty và admin cho sản phẩm, nhà cung cấp và hoa hồng."
+        },
+        "horoscope": {
+          "title": "Studio tử vi",
+          "description": "Sản phẩm tử vi cho tra cứu lá số, dự đoán, phong thủy, âm lịch và đọc có phí. OpenAI viết diễn giải từ dữ liệu lá số với RAG."
+        },
+        "vehicle": {
+          "title": "Định giá xe",
+          "description": "Luồng định giá xe gồm thông tin xe, ảnh và lịch sử thanh toán. OpenAI viết thẩm định từ dữ liệu và ảnh với RAG."
+        },
+        "proxyBot": {
+          "title": "Bot bán proxy",
+          "description": "Bot Telegram bán và quản lý proxy, nạp ví, đơn hàng và dashboard quản trị."
+        },
+        "accessCode": {
+          "title": "Chuyển tiếp mã truy cập",
+          "description": "Dịch vụ quét email tài khoản hộ gia đình và chuyển tiếp mã truy cập cho khách phù hợp."
+        },
+        "tts": {
+          "title": "Chuyển văn bản thành giọng nói",
+          "description": "Ứng dụng chuyển văn bản thành giọng nói."
+        },
+        "transcription": {
+          "title": "Phiên âm video ngắn",
+          "description": "Pipeline dòng lệnh phiên âm video ngắn."
+        },
+        "landing": {
+          "title": "Website marketing dịch vụ",
+          "description": "Website marketing cho gói thiết kế và website, có portfolio, FAQ và form liên hệ."
+        }
+      }
+    },
+    "japan": {
+      "description": "Triển khai sản phẩm full-stack cho khách Nhật: marketplace creator, đấu giá quảng cáo LED, SaaS auto-reply AI, OCR catalog, vận hành cho thuê và công cụ bán hàng Amazon.",
+      "projects": {
+        "creator": {
+          "title": "Sàn creator",
+          "description": "Nền tảng creator cho livestream trả phí, bán VOD, video call 1:1, fan club, vé và thanh toán Stripe kể cả konbini."
+        },
+        "billboard": {
+          "title": "Sàn quảng cáo LED",
+          "description": "Sàn quảng cáo billboard với đấu giá khung giờ, upload và duyệt video, hóa đơn và dashboard quản trị."
+        },
+        "autoReply": {
+          "title": "Trả lời tự động AI",
+          "description": "SaaS auto-reply AI trả lời trên Slack, LINE, Chatwork và Facebook Messenger, rồi tạo task Google Calendar từ hội thoại."
+        },
+        "ocr": {
+          "title": "OCR catalog",
+          "description": "Trích xuất trường có cấu trúc từ catalog sản phẩm Nhật — tên, SKU, nhân vật, ngày phát hành, giá — rồi xuất CSV và Excel."
+        },
+        "rental": {
+          "title": "Vận hành cho thuê",
+          "description": "Hệ thống vận hành bất động sản: hợp đồng, đối tác, nợ quá hạn, chuyển tiền, phí gia hạn và quy trình thu hồi."
+        },
+        "listings": {
+          "title": "Đăng bán xuyên biên giới",
+          "description": "Công cụ bán Amazon Nhật–Mỹ với storefront theo vùng cho Mỹ, Úc, Canada, Singapore và eBay — listing, cập nhật giá và quản lý doanh số."
+        },
+        "subBot": {
+          "title": "Bot đăng ký",
+          "description": "Bot Discord bán gói tháng qua Stripe, gán role premium từ webhook và giữ tier miễn phí grandfathered."
+        }
+      }
+    },
+    "singapore": {
+      "description": "Xây dựng sản phẩm đặt dịch vụ, HR, cho vay, đội xe và vận hành cho khách Singapore, cùng site công ty và marketing.",
+      "projects": {
+        "booking": {
+          "title": "Đặt lịch dịch vụ",
+          "description": "Nền tảng đặt dịch vụ với web khách, app mobile, portal vendor và admin. Hỗ trợ đặt một lần và định kỳ, báo giá, hóa đơn, GST và lịch kỹ thuật viên."
+        },
+        "hr": {
+          "title": "Nền tảng HR",
+          "description": "Nền tảng HR cho lương và phiếu lương, nghỉ phép, tuyển dụng và phỏng vấn, cơ cấu tổ chức và đặt bàn/phòng."
+        },
+        "field": {
+          "title": "Vận hành hiện trường",
+          "description": "Hệ thống vận hành dự án cửa: khách hàng, nhân viên, công việc theo giai đoạn, kho, sản phẩm và dịch vụ, bảo hành và báo cáo GST."
+        },
+        "fleet": {
+          "title": "Vận hành đội xe",
+          "description": "Vận hành đội xe và giao hàng: tài xế, xe, lập tuyến, khách hàng, khuyến mãi và tài chính."
+        },
+        "loan": {
+          "title": "Nền tảng cho vay",
+          "description": "Nền tảng cho vay: hồ sơ, đề xuất và phản đề xuất, trả nợ, lịch hẹn và đăng nhập Singpass."
+        },
+        "company": {
+          "title": "Website công ty",
+          "description": "Site marketing công ty với trang chủ, dịch vụ và liên hệ, gồm frontend React và site WordPress."
+        },
+        "marketing": {
+          "title": "Website marketing",
+          "description": "Site marketing xây dựng và bảo trì trên WordPress."
+        }
+      }
+    }
+  },
+  "education": {
+    "degree": "Khoa học máy tính"
+  },
+  "projects": {
+    "friendDebt": {
+      "title": "Theo dõi nợ bạn bè",
+      "description": "Ứng dụng mobile theo dõi tiền cho vay giữa bạn bè: xác nhận hai bên, nhắc tự động, lịch sử và thùng rác 30 ngày. Có admin web cho người dùng, khoản nợ và báo cáo vi phạm."
+    },
+    "creator": {
+      "title": "Sàn creator",
+      "description": "Nền tảng creator cho livestream trả phí, VOD, video call 1:1, fan club, vé và Stripe kể cả konbini. Làm cho khách hàng Nhật."
+    },
+    "digital": {
+      "title": "Cửa hàng số",
+      "description": "Storefront tài khoản, khóa học và nội dung tải về, giỏ hàng, PayPal, mã quà và admin. API NestJS phục vụ web và mobile, chat bot RAG từ dữ liệu shop. Làm cho khách Úc."
+    },
+    "esimShop": {
+      "title": "Cửa hàng eSIM",
+      "description": "Cửa hàng eSIM với catalog theo quốc gia, thanh toán, nạp tiền, lịch sử đơn, giới thiệu, loyalty và admin cho sản phẩm, nhà cung cấp và hoa hồng. Làm cho khách Úc."
+    },
+    "autoReply": {
+      "title": "Trả lời tự động AI",
+      "description": "SaaS auto-reply AI trên Slack, LINE, Chatwork và Messenger, tạo task Google Calendar từ hội thoại. Làm cho khách Nhật."
+    },
+    "booking": {
+      "title": "Đặt lịch dịch vụ",
+      "description": "Nền tảng đặt dịch vụ với web, mobile, portal vendor và admin; đặt một lần/định kỳ, báo giá, hóa đơn, GST và lịch kỹ thuật viên. Làm cho khách Singapore."
+    },
+    "cozy": {
+      "title": "Asset game cozy (itch.io)",
+      "description": "Icon pixel cozy, UI kit, VFX combat và gói âm thanh game gốc — làm bằng code, không dùng AI generative. Bản mini miễn phí và gói đầy đủ cho indie dev."
+    },
+    "wedding": {
+      "title": "Thiệp cưới online",
+      "description": "Thiệp cưới online hai phiên bản (đỏ đậm / navy) cho đám 29/12/2026: chương trình, bản đồ và sổ lưu bút riêng mỗi bản. Triển khai Cloudflare Pages, nhanh trên mobile."
+    },
+    "paypal": {
+      "title": "Tự điền PayPal Sandbox",
+      "description": "Extension Chrome (MV3) điền dữ liệu thẻ test sandbox PayPal vào form thanh toán — không cần copy email và mật khẩu sandbox mỗi lần test."
+    }
+  }
+}

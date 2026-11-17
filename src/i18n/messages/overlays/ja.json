@@ -1,0 +1,260 @@
+{
+  "hero": {
+    "jobTitle": "フルスタック・ソフトウェアエンジニア／フリーランス",
+    "description": "ソフトウェア開発経験7年以上。スケーラブルで効率的なウェブアプリケーション構築に情熱を注いでいます。"
+  },
+  "stats": {
+    "yearsExperience": "経験年数",
+    "productionApps": "本番アプリ",
+    "countries": "国・地域",
+    "companiesServed": "支援企業数"
+  },
+  "about": {
+    "summary": "品質の高いウェブ・モバイルアプリケーションの設計・開発・デプロイにおいて、7年以上の実務経験を持つソフトウェアエンジニアです。複雑な課題を解き、堅牢でスケーラブルなソリューションを一から構築することに情熱を注いでいます。\n\n**React / Next.js** による直感的なUIから、**PHP / Laravel** および **Node.js / Express / NestJS** によるバックエンドまで、フルスタックをカバーしています。**AWS** によるクラウド基盤の構築にも精通し、**Linux（Ubuntu）サーバー**上でのデプロイ管理・自動化など **DevOps** スキルも備えています。\n\n- 🔭 現在はスケーラブルなマイクロサービス構築とクラウド基盤の強化に取り組んでいます。\n- 🌱 Serverlessアーキテクチャや高度なCI/CDパイプラインを学習中です。\n- 💬 ウェブ開発に関することなら**何でも**ご質問ください。\n- 📫 連絡先：**jely.big@gmail.com** | **thunguyen.developer@gmail.com**\n- ⚡ 豆知識：最高のコードはシンプルで、洗練され、保守しやすいものだと信じています。\n"
+  },
+  "skills": {
+    "title": "技術スキル",
+    "description": "本番環境で使用している技術",
+    "categories": {
+      "languages": "言語",
+      "practices": "エンジニアリングプラクティス",
+      "backend": "バックエンド",
+      "frontend": "フロントエンド",
+      "databases": "データベース & ORM",
+      "cms": "CMS & Eコマース",
+      "cloud": "クラウド",
+      "devops": "DevOps & サーバー",
+      "api": "API・認証・決済",
+      "ai": "AI",
+      "libraries": "ライブラリ & 連携",
+      "testing": "テスト",
+      "tools": "ツール",
+      "soft": "ソフトスキル"
+    },
+    "softSkills": {
+      "problemInvestigation": "問題調査",
+      "presentationSkills": "プレゼンテーション",
+      "projectManagement": "プロジェクト管理",
+      "solutionDesign": "ソリューション設計",
+      "technicalManagement": "技術管理"
+    }
+  },
+  "work": {
+    "description": "正社員としてのキャリアと独立案件",
+    "fullTime": "正社員",
+    "partTime": "パートタイム",
+    "freelance": "フリーランス",
+    "roles": {
+      "fullstack": "フルスタック・ソフトウェアエンジニア",
+      "php": "PHPソフトウェアエンジニア",
+      "itSupport": "ITサポート"
+    },
+    "kozocom": [
+      "日本のクライアント向けに、EC・法人向けケータリング・再生可能エネルギー管理のウェブプラットフォームを構築・保守",
+      "NestJS、React、AWSサーバーレス（Amplify、AppSync、Lambda、DynamoDB）でフルスタックの機能開発と本番不具合修正",
+      "管理ツールの保守と、WooCommerce、Amazon、Shopify間の商品データ同期",
+      "Shopifyストアフロントのカスタマイズとサードパーティ製パッケージ・プラグイン・APIの連携",
+      "IAM、Amplify、Lambda、API Gateway、CloudWatchなどのAWSサービスの利用",
+      "仕様・QA・コードレビュー向けにClaude Codeを用いたAI支援ワークフローの構築",
+      "生産性の向上とコードベース調査時間の短縮",
+      "不具合の早期発見とプロジェクトドキュメントの一貫性維持"
+    ],
+    "uoy": [
+      "米欧向けPOD印刷事業のツールを構築・保守",
+      "WooCommerce、Amazon、Shopify間の商品データ同期",
+      "WordPressランディングページとShopifyインターフェースのカスタマイズ",
+      "カート・注文フロー向けショートコードとプラグインの開発",
+      "Google Sheets、Google Analytics、Facebook Ads APIの連携"
+    ],
+    "linkhouse": [
+      "不動産CRMの人事モジュール構築：勤怠、給与、歩合、休暇、残業",
+      "プロフィールとポイントを含む顧客管理の構築",
+      "予約・物件掲載を含む案件管理の構築",
+      "モバイルアプリ向けREST APIの提供"
+    ],
+    "mwg": ["ソフトウェアの技術サポート"]
+  },
+  "freelance": {
+    "title": "フリーランス & 副業プロジェクト",
+    "description": "正社員と並行",
+    "badge": "並行",
+    "ndaNote": "NDAのため、プロジェクト名は変更しています。",
+    "vietnam": {
+      "description": "ベトナムのクライアント向けに、ソーシャルサービス、ファイルダウンロード、下宿管理、ショップ製品と、友人間の借金管理アプリを構築。",
+      "projects": {
+        "socialServicePanel": {
+          "title": "ソーシャルサービス管理パネル",
+          "description": "TikTok・YouTube・Facebookの注文向けソーシャルサービス基盤。ウォレット、プロキシ在庫、セラーツールを備え、ブラウザ拡張でセラー注文の完了を表示。"
+        },
+        "fileDownload": {
+          "title": "ファイルダウンロードサービス",
+          "description": "会員パッケージ、ダウンロード履歴、紹介、出金機能を持つファイルダウンロードサービス。"
+        },
+        "boardingHouse": {
+          "title": "下宿管理システム",
+          "description": "建物・部屋、入退室、敷金、請求書、修繕費を管理する下宿向けシステム。"
+        },
+        "onlineShop": {
+          "title": "オンラインショップ",
+          "description": "商品ページ、カート、チェックアウト、VietQR決済、注文履歴を備えたオンラインショップ。"
+        },
+        "friendDebt": {
+          "title": "友人貸借トラッカー",
+          "description": "友人間の貸借を記録するモバイルアプリ。確認、リマインダー、管理コンソール付き。"
+        },
+        "socialId": {
+          "title": "ソーシャルID検索",
+          "description": "Facebookのプロフィール・ページ・グループURLからIDを返すブラウザ拡張。"
+        }
+      }
+    },
+    "australia": {
+      "description": "オーストラリアのクライアント向けに、デジタルストアフロント、eSIMショップ、車両査定、占い製品、自動化ツールをリリース。",
+      "projects": {
+        "digitalStorefront": {
+          "title": "デジタルストアフロント",
+          "description": "アカウント・コース・ダウンロードコンテンツ向けストアフロント。カート、PayPal決済、ギフトコード、管理コンソール。NestJS APIがWeb・モバイルを提供。RAGでショップデータに基づくチャットボット。"
+        },
+        "esimShop": {
+          "title": "eSIMショップ",
+          "description": "国別カタログ、チェックアウト、チャージ、注文履歴、紹介、ロイヤルティ、商品・プロバイダー・手数料の管理画面を備えたeSIMショップ。"
+        },
+        "horoscope": {
+          "title": "占いスタジオ",
+          "description": "チャート検索、予測、風水、旧暦、有料鑑定向けの占い製品。OpenAIがRAGでチャートデータから解釈文を生成。"
+        },
+        "vehicle": {
+          "title": "車両査定",
+          "description": "車両情報、写真掲載、支払履歴を扱う査定フロー。OpenAIがRAGで車両データと写真から鑑定文を生成。"
+        },
+        "proxyBot": {
+          "title": "プロキシ販売ボット",
+          "description": "プロキシの販売・管理向けTelegramボット。ウォレットチャージ、注文、管理ダッシュボード。"
+        },
+        "accessCode": {
+          "title": "アクセスコード転送",
+          "description": "世帯アカウントのメールをスキャンし、該当顧客へアクセスコードを転送するサービス。"
+        },
+        "tts": {
+          "title": "テキスト読み上げ",
+          "description": "テキストから音声を生成するTTSアプリ。"
+        },
+        "transcription": {
+          "title": "ショート動画文字起こし",
+          "description": "ショート動画を書き起こすコマンドラインパイプライン。"
+        },
+        "landing": {
+          "title": "サービス紹介サイト",
+          "description": "ウェブサイト・デザインパッケージのマーケティングサイト。ポートフォリオ、FAQ、問い合わせフォーム。"
+        }
+      }
+    },
+    "japan": {
+      "description": "日本のクライアント向けに、クリエイターマーケットプレイス、LED広告入札、AI自動返信SaaS、カタログOCR、賃貸オペレーション、Amazon販売ツールなどフルスタック製品をリリース。",
+      "projects": {
+        "creator": {
+          "title": "クリエイターマーケットプレイス",
+          "description": "有料ライブ配信、VOD販売、1対1ビデオ通話、ファンクラブ、チケット、コンビニ対応を含むStripe課金のクリエイター向けプラットフォーム。"
+        },
+        "billboard": {
+          "title": "ビルボード広告マーケット",
+          "description": "時間枠入札、動画アップロード・承認、請求書、管理ダッシュボードを備えたビルボード広告マーケットプレイス。"
+        },
+        "autoReply": {
+          "title": "AI自動返信",
+          "description": "Slack、LINE、Chatwork、Facebook Messengerで自動返信し、会話からGoogleカレンダータスクを作成するAI自動返信SaaS。"
+        },
+        "ocr": {
+          "title": "カタログOCR",
+          "description": "日本語商品カタログから名称・SKU・キャラクター・発売日・価格などの構造化フィールドを抽出し、CSV・Excelでエクスポート。"
+        },
+        "rental": {
+          "title": "賃貸運用システム",
+          "description": "契約、パートナー、滞納、送金、更新料、回収業者ワークフローを扱う物件オペレーションシステム。"
+        },
+        "listings": {
+          "title": "越境出品ツール",
+          "description": "日米Amazon販売ツール。米国・豪州・カナダ・シンガポール・eBay向け地域ストアフロントで、出品・価格更新・販売管理。"
+        },
+        "subBot": {
+          "title": "サブスクボット",
+          "description": "Stripeで月額プランを販売するDiscordボット。Webhookでプレミアムロールを付与し、旧来の無料枠を維持。"
+        }
+      }
+    },
+    "singapore": {
+      "description": "シンガポールのクライアント向けに、予約、HR、融資、フリート、オペレーション製品と、企業・マーケティングサイトを構築。",
+      "projects": {
+        "booking": {
+          "title": "サービス予約",
+          "description": "顧客Webアプリ、モバイルアプリ、ベンダーポータル、管理コンソールを備えたサービス予約基盤。単発・定期予約、見積、請求書、GST、技術者スケジュール。"
+        },
+        "hr": {
+          "title": "HRプラットフォーム",
+          "description": "給与・給与明細、休暇、採用・面接、組織構造、デスク・会議室予約のHRプラットフォーム。"
+        },
+        "field": {
+          "title": "現場運用システム",
+          "description": "ドア関連案件のオペレーション：顧客、従業員、段階的ジョブ、在庫、商品・サービス、保証・メンテナンス、GSTレポート。"
+        },
+        "fleet": {
+          "title": "フリート運用",
+          "description": "ドライバー、車両、ルート計画、顧客、プロモーション、財務を扱うフリート・宅配オペレーション。"
+        },
+        "loan": {
+          "title": "ローンプラットフォーム",
+          "description": "申込、オファー・カウンターオファー、返済、面談予約、Singpassログインの融資プラットフォーム。"
+        },
+        "company": {
+          "title": "コーポレートサイト",
+          "description": "ホーム・サービス・問い合わせを備えた企業マーケティングサイト。ReactフロントエンドとWordPressサイトで提供。"
+        },
+        "marketing": {
+          "title": "マーケティングサイト",
+          "description": "WordPressで構築・保守するマーケティングサイト。"
+        }
+      }
+    }
+  },
+  "education": {
+    "degree": "コンピュータサイエンス"
+  },
+  "projects": {
+    "friendDebt": {
+      "title": "友人貸借トラッカー",
+      "description": "友人間の貸借を記録するモバイルアプリ。双方確認、自動リマインダー、履歴、30日間のゴミ箱。ユーザー・借金・違反報告のWeb管理付き。"
+    },
+    "creator": {
+      "title": "クリエイターマーケットプレイス",
+      "description": "有料ライブ、VOD、1対1通話、ファンクラブ、チケット、コンビニ対応Stripe課金のクリエイター基盤。日本のクライアント向け。"
+    },
+    "digital": {
+      "title": "デジタルストアフロント",
+      "description": "アカウント・コース・ダウンロード向けストアフロント。カート、PayPal、ギフトコード、管理コンソール。NestJS APIとRAGチャットボット。オーストラリアのクライアント向け。"
+    },
+    "esimShop": {
+      "title": "eSIMショップ",
+      "description": "国別カタログ、チェックアウト、チャージ、注文履歴、紹介、ロイヤルティ、商品・プロバイダー・手数料の管理画面を備えたeSIMショップ。オーストラリアのクライアント向け。"
+    },
+    "autoReply": {
+      "title": "AI自動返信",
+      "description": "Slack、LINE、Chatwork、Messengerで自動返信しGoogleカレンダータスクを作成するSaaS。日本のクライアント向け。"
+    },
+    "booking": {
+      "title": "サービス予約",
+      "description": "顧客Web・モバイル・ベンダーポータル・管理コンソール。単発・定期予約、見積、請求、GST、技術者スケジュール。シンガポールのクライアント向け。"
+    },
+    "cozy": {
+      "title": "Cozyゲームアセット（itch.io）",
+      "description": "オリジナルのコージーピクセルアイコン、UIキット、戦闘VFX、ゲーム音響パック。コード制作、生成AIアート不使用。インディー開発者向け無料ミニとフルパック。"
+    },
+    "wedding": {
+      "title": "オンライン結婚招待状",
+      "description": "2026年12月29日の婚礼向け、深紅／ネイビーの2版オンライン招待状。プログラム、地図、版ごとのゲストブック。Cloudflare Pagesで高速モバイル表示。"
+    },
+    "paypal": {
+      "title": "PayPal Sandbox自動入力",
+      "description": "PayPalサンドボックスのテストカード情報をチェックアウトフォームに入力するChrome拡張（MV3）。毎回メールとパスワードをコピーする手間を削減。"
+    }
+  }
+}

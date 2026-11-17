@@ -1,0 +1,614 @@
+{
+  "profile": {
+    "fullName": "NGUYEN PHUOC THU",
+    "dateOfBirth": "Feb 03, 1995",
+    "gender": "Male",
+    "phone": "+84359399320",
+    "email": "jely.big@gmail.com",
+    "address": "Da Nang, Viet Nam",
+    "portfolioUrl": "https://thunguyenit.com",
+    "portfolioLabel": "Portfolio",
+    "gitlabUrl": "https://gitlab.com/jely.big",
+    "githubUrl": "https://github.com/jelyqs"
+  },
+  "objective": "I'm a seasoned Software Engineer with over 7 years of hands-on experience in designing, developing, and deploying high-quality web and mobile applications. My passion lies in solving complex problems and building robust, scalable solutions from the ground up. My expertise spans the full stack, from creating intuitive user interfaces with React / Next.js to engineering powerful back-end systems with PHP / Laravel and Node.js / Express / NestJS. I am also proficient in leveraging AWS services for scalable cloud infrastructure and have strong DevOps skills in managing and automating deployments on Linux (Ubuntu) servers.",
+  "education": [
+    {
+      "school": "Vietnam - Korea University of Information and Communication Technology",
+      "degree": "Computer Science",
+      "start": "2013",
+      "end": "2016"
+    }
+  ],
+  "work": [
+    {
+      "company": "Kozocom Vietnam Co., Ltd",
+      "start": "October 2022",
+      "end": "Present",
+      "roles": [
+        {
+          "title": "Full-stack Software Engineer",
+          "start": "October 2022",
+          "end": "Present",
+          "bullets": [
+            "Build and maintain web platforms for Japanese clients in e-commerce, corporate catering, and renewable-energy management.",
+            "Ship features and fix production bugs across the stack with NestJS, React, and AWS serverless (Amplify, AppSync, Lambda, DynamoDB).",
+            "Maintain management tools and sync product data across WooCommerce, Amazon, and Shopify.",
+            "Customize Shopify storefronts and integrate third-party packages, plugins, and APIs.",
+            "Work with AWS services including IAM, Amplify, Lambda, API Gateway, and CloudWatch.",
+            "Set up an AI-assisted workflow with Claude Code for specs, QA, and code review.",
+            "Boosted productivity and shortened codebase investigation.",
+            "Caught bugs earlier and kept project documentation consistent."
+          ],
+          "technical": [
+            "TypeScript",
+            "React/Next.js",
+            "PHP/Laravel",
+            "Node.js/NestJS",
+            "WordPress",
+            "Shopify",
+            "Docker",
+            "AWS",
+            "REST API",
+            "API Gateway",
+            "Amplify",
+            "AppSync",
+            "Lambda",
+            "CloudWatch"
+          ],
+          "databases": ["MySQL", "PostgreSQL", "DynamoDB"]
+        }
+      ]
+    },
+    {
+      "company": "UOYMedia",
+      "start": "June 2021",
+      "end": "September 2022",
+      "roles": [
+        {
+          "title": "PHP Software Engineer",
+          "start": "June 2021",
+          "end": "September 2022",
+          "bullets": [
+            "Built and maintained tooling for a POD print business serving US/EU markets.",
+            "Synced product data between WooCommerce, Amazon, and Shopify.",
+            "Customized WordPress landing pages and Shopify interfaces.",
+            "Wrote shortcodes and plugins for cart and order flows.",
+            "Integrated Google Sheets, Google Analytics, and Facebook Ads APIs."
+          ],
+          "technical": [
+            "JavaScript",
+            "PHP/Laravel",
+            "WordPress",
+            "Shopify",
+            "Docker",
+            "REST API"
+          ],
+          "databases": ["MySQL"]
+        }
+      ]
+    },
+    {
+      "company": "LINKHOUSE",
+      "start": "March 2019",
+      "end": "May 2021",
+      "roles": [
+        {
+          "title": "PHP Software Engineer",
+          "start": "March 2019",
+          "end": "May 2021",
+          "bullets": [
+            "Built the HR module of a real-estate CRM: attendance, payroll, commission, leave, and overtime.",
+            "Built customer management with profiles and loyalty points.",
+            "Built project management with booking and listings.",
+            "Delivered REST APIs for the mobile app."
+          ],
+          "technical": ["JavaScript", "PHP/Laravel", "Firebase", "REST API"],
+          "databases": ["MySQL"]
+        }
+      ]
+    },
+    {
+      "company": "MWG",
+      "start": "August 2016",
+      "end": "June 2018",
+      "roles": [
+        {
+          "title": "IT Support",
+          "start": "August 2016",
+          "end": "June 2018",
+          "bullets": ["Provided software technical support."],
+          "technical": ["IT Support", "Software"],
+          "databases": []
+        }
+      ]
+    }
+  ],
+  "freelance": {
+    "ndaNote": "Project names have been changed for NDA reasons.",
+    "clients": [
+      {
+        "name": "Freelance",
+        "location": "Vietnam",
+        "employmentType": "Freelance",
+        "start": "2018",
+        "end": "Present",
+        "description": "Built social-service, file-download, boarding-house, and shop products for Vietnamese clients, plus a friend debt-tracking app.",
+        "projects": [
+          {
+            "title": "Social Service Panel",
+            "description": "Social-service platform for TikTok, YouTube, and Facebook orders, with a wallet, proxy inventory, and seller tools. A browser extension shows when seller orders are completed."
+          },
+          {
+            "title": "File Download Service",
+            "description": "File download service with membership packages, download history, referrals, and withdrawals."
+          },
+          {
+            "title": "Boarding House Manager",
+            "description": "Boarding-house system for buildings, rooms, check-in and check-out, deposits, invoices, and repair costs."
+          },
+          {
+            "title": "Online Shop",
+            "description": "Online shop with product pages, a cart, checkout, VietQR payment, and order history."
+          },
+          {
+            "title": "Friend Debt Tracker",
+            "description": "Mobile app for tracking money lent between friends, with confirmations, reminders, and an admin console."
+          },
+          {
+            "title": "Social ID Lookup",
+            "description": "Browser extension that reads a Facebook profile, page, or group URL and returns its ID."
+          }
+        ],
+        "technical": [
+          "PHP/Laravel",
+          "React Native",
+          "Firebase",
+          "JavaScript",
+          "Tailwind CSS",
+          "Docker",
+          "Chrome Extension"
+        ],
+        "databases": ["MySQL"]
+      },
+      {
+        "name": "Freelance",
+        "location": "Australia",
+        "employmentType": "Freelance",
+        "start": "March 2025",
+        "end": "Present",
+        "description": "Shipped a digital storefront, an eSIM shop, car valuation, a horoscope product, and automation tools for Australian clients.",
+        "projects": [
+          {
+            "title": "Digital Storefront",
+            "description": "Storefront for accounts, courses, and downloadable content, with cart, PayPal checkout, gift codes, and an admin console. A NestJS API serves the web app and mobile clients. A chat bot answers from shop data with RAG."
+          },
+          {
+            "title": "eSIM Shop",
+            "description": "eSIM shop with country catalogs, checkout, top-ups, order history, referrals, loyalty, and an admin for products, providers, and commissions."
+          },
+          {
+            "title": "Horoscope Studio",
+            "description": "Horoscope product for chart lookups, predictions, feng shui, lunar dates, and paid readings. OpenAI writes the interpretations from chart data with RAG."
+          },
+          {
+            "title": "Vehicle Valuation",
+            "description": "Car valuation flow covering vehicle details, photo listings, and payment history. OpenAI writes the appraisal from the vehicle data and photos with RAG."
+          },
+          {
+            "title": "Proxy Sales Bot",
+            "description": "Telegram bot for selling and managing proxies, with wallet top-up, orders, and an admin dashboard."
+          },
+          {
+            "title": "Access Code Forwarder",
+            "description": "Service that scans household account emails and forwards access codes to matching customers."
+          },
+          {
+            "title": "Text-to-Speech",
+            "description": "Text-to-speech app that generates voices from written text."
+          },
+          {
+            "title": "Short-Video Transcription",
+            "description": "Command-line pipeline that transcribes short-form videos."
+          },
+          {
+            "title": "Service Marketing Site",
+            "description": "Marketing site for website and design packages, with a portfolio, FAQs, and a contact form."
+          }
+        ],
+        "technical": [
+          "Next.js",
+          "NestJS",
+          "Python",
+          "Prisma",
+          "PayPal",
+          "Telegram",
+          "Cloudflare R2",
+          "OpenAI",
+          "RAG"
+        ],
+        "databases": ["MySQL", "PostgreSQL", "Redis"]
+      },
+      {
+        "name": "Freelance",
+        "location": "Japan",
+        "employmentType": "Freelance",
+        "start": "May 2025",
+        "end": "June 2026",
+        "description": "Shipped full-stack products for Japanese clients: a creator marketplace, LED ad bidding, an AI auto-reply SaaS, catalog OCR, rental operations, and Amazon selling tools.",
+        "projects": [
+          {
+            "title": "Creator Marketplace",
+            "description": "Creator platform for paid livestreams, VOD sales, 1:1 video calls, fan clubs, tickets, and Stripe billing including konbini."
+          },
+          {
+            "title": "Billboard Marketplace",
+            "description": "Billboard ad marketplace with time-slot bidding, video upload and approval, invoices, and an admin dashboard."
+          },
+          {
+            "title": "AI Auto-Reply",
+            "description": "AI auto-reply SaaS that replies on Slack, LINE, Chatwork, and Facebook Messenger, then creates Google Calendar tasks from the conversation."
+          },
+          {
+            "title": "Catalog OCR",
+            "description": "Extracts structured fields from Japanese product catalogs — name, SKU, character, release date, and price — then exports CSV and Excel."
+          },
+          {
+            "title": "Rental Operations",
+            "description": "Property operations system covering contracts, partners, delinquency, remittance, renewal fees, and collection-agency workflows."
+          },
+          {
+            "title": "Cross-Border Listings",
+            "description": "Japan–US Amazon selling tool with regional storefronts for the US, Australia, Canada, Singapore, and eBay — listings, price updates, and sales management."
+          },
+          {
+            "title": "Subscription Bot",
+            "description": "Discord bot that sells monthly plans through Stripe, assigns premium roles from webhooks, and keeps a grandfathered free tier."
+          }
+        ],
+        "technical": [
+          "React/TypeScript",
+          "Node.js/Express",
+          "Python/FastAPI",
+          "Stripe",
+          "AWS",
+          "WebRTC",
+          "Tailwind CSS",
+          "OpenAI"
+        ],
+        "databases": ["MongoDB", "PostgreSQL"]
+      },
+      {
+        "name": "Freelance",
+        "location": "Singapore",
+        "employmentType": "Part-time",
+        "start": "November 2023",
+        "end": "December 2024",
+        "description": "Built booking, HR, lending, fleet, and operations products for Singapore clients, plus company and marketing sites.",
+        "projects": [
+          {
+            "title": "Service Booking",
+            "description": "Service booking platform with a customer web app, a mobile app, a vendor portal, and an admin console. Covers one-time and recurring bookings, quotes, invoices, GST, and technician scheduling."
+          },
+          {
+            "title": "HR Platform",
+            "description": "HR platform for payroll and payslips, leave, hiring and interviews, organization structure, and desk and room booking."
+          },
+          {
+            "title": "Field Operations",
+            "description": "Operations system for door projects: customers, employees, phased jobs, inventory, products and services, warranty and maintenance, and GST reports."
+          },
+          {
+            "title": "Fleet Operations",
+            "description": "Fleet and courier operations for drivers, vehicles, route planning, customers, promotions, and finance."
+          },
+          {
+            "title": "Loan Platform",
+            "description": "Loan platform for applications, offers and counter-offers, repayments, appointments, and Singpass sign-in."
+          },
+          {
+            "title": "Company Site",
+            "description": "Company marketing site with home, services, and contact, shipped as a React frontend and a WordPress site."
+          },
+          {
+            "title": "Marketing Sites",
+            "description": "Marketing sites built and maintained on WordPress."
+          }
+        ],
+        "technical": [
+          "React/TypeScript",
+          "React Native",
+          "Node.js/Express",
+          "PHP/Laravel",
+          "WordPress",
+          "Stripe",
+          "Docker",
+          "CodeIgniter"
+        ],
+        "databases": ["MySQL", "Redis"]
+      }
+    ]
+  },
+  "skills": [
+    {
+      "name": "Languages",
+      "items": ["JavaScript", "TypeScript", "PHP", "Python", "Bash Shell"]
+    },
+    {
+      "name": "Engineering Practices",
+      "items": [
+        "OOP",
+        "Clean Code",
+        "Design Patterns (Factory, Singleton, Observer)"
+      ]
+    },
+    {
+      "name": "Backend",
+      "items": [
+        "Laravel",
+        "Node.js",
+        "Express",
+        "NestJS",
+        "FastAPI",
+        "CodeIgniter"
+      ]
+    },
+    {
+      "name": "Frontend",
+      "items": [
+        "React",
+        "Next.js",
+        "React Native",
+        "Vue",
+        "Redux",
+        "Apollo Client",
+        "Tailwind CSS",
+        "shadcn/ui",
+        "MUI",
+        "Bootstrap",
+        "SASS",
+        "HTML5",
+        "CSS3",
+        "Responsive Web Design",
+        "Vite",
+        "Webpack",
+        "Babel",
+        "Ajax"
+      ]
+    },
+    {
+      "name": "Databases & ORM",
+      "items": [
+        "MySQL",
+        "PostgreSQL",
+        "MongoDB",
+        "Redis",
+        "DynamoDB",
+        "SQLite",
+        "AWS Aurora",
+        "Elasticsearch",
+        "Prisma",
+        "Eloquent",
+        "Doctrine",
+        "Sequelize",
+        "TypeORM"
+      ]
+    },
+    {
+      "name": "CMS & E-commerce",
+      "items": ["WordPress", "Shopify"]
+    },
+    {
+      "name": "Cloud",
+      "items": [
+        "AWS",
+        "EC2",
+        "Lambda",
+        "API Gateway",
+        "AppSync",
+        "Amplify",
+        "RDS",
+        "AWS S3",
+        "CloudWatch",
+        "Load Balancer",
+        "Auto Scaling",
+        "AWS CDK",
+        "AWS SAM",
+        "Serverless Framework",
+        "AWS IVS",
+        "Amazon Chime",
+        "Firebase",
+        "Cloud Functions"
+      ]
+    },
+    {
+      "name": "DevOps & Servers",
+      "items": [
+        "Docker",
+        "CI/CD",
+        "GitHub Actions",
+        "CircleCI",
+        "Jenkins",
+        "Terraform",
+        "Ansible",
+        "Linux (Ubuntu, CentOS, Amazon Linux)",
+        "VPS setup (Ubuntu 20.x – 26.x)",
+        "Nginx",
+        "Apache2",
+        "PHP-FPM",
+        "PM2",
+        "Supervisor",
+        "Crontab",
+        "Prometheus",
+        "Grafana",
+        "cPanel"
+      ]
+    },
+    {
+      "name": "APIs, Auth & Payments",
+      "items": [
+        "REST API",
+        "GraphQL",
+        "WebSocket",
+        "WebRTC",
+        "Swagger",
+        "JWT",
+        "OAuth2",
+        "Auth0",
+        "Stripe",
+        "PayPal"
+      ]
+    },
+    {
+      "name": "AI",
+      "items": ["OpenAI", "RAG", "Prompt Engineering"]
+    },
+    {
+      "name": "Libraries & Integrations",
+      "items": [
+        "Chrome Extension",
+        "Telegram Bot",
+        "Discord.js",
+        "mediasoup",
+        "ElevenLabs"
+      ]
+    },
+    {
+      "name": "Testing",
+      "items": ["Unit test", "Performance testing", "Jest"]
+    },
+    {
+      "name": "Tools",
+      "items": [
+        "Git",
+        "VS Code",
+        "Cursor",
+        "GitHub Copilot",
+        "Postman",
+        "Altair GraphQL",
+        "Laravel Valet",
+        "npm",
+        "Yarn",
+        "pnpm",
+        "Jira",
+        "Backlog",
+        "Notion",
+        "Figma",
+        "Adobe XD"
+      ]
+    },
+    {
+      "name": "Soft Skills",
+      "items": [
+        "Problem investigation",
+        "Presentation skills",
+        "Project management",
+        "Solution design",
+        "Technical management"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "title": "Cozy Game Assets (itch.io)",
+      "dates": "2024 - Present",
+      "description": "Original cozy pixel icons, UI kits, combat VFX, and game audio packs — made with code, no generative AI art. Free minis and full packs for indie developers.",
+      "technologies": ["Pixel Art", "Game Audio", "UI Kits", "itch.io"],
+      "source": "data",
+      "customer": "Indie developers (itch.io)",
+      "teamSize": 1,
+      "position": "Creator / Developer"
+    },
+    {
+      "title": "Friend Debt Tracker",
+      "dates": "October 2026",
+      "description": "Mobile app for tracking money lent between friends: two-sided confirmations, auto reminders, history, and 30-day trash. Includes a web admin for users, debts, and violation reports.",
+      "technologies": ["React Native", "TypeScript", "Firebase", "FCM"],
+      "source": "data",
+      "customer": "Personal client",
+      "teamSize": 1,
+      "position": "Developer"
+    },
+    {
+      "title": "PayPal Sandbox Autofill",
+      "dates": "October 2026",
+      "description": "Chrome extension (MV3) that fills PayPal sandbox test-card data into checkout forms — no more copy-pasting sandbox emails and passwords for every test run.",
+      "technologies": ["TypeScript", "Chrome Extension"],
+      "source": "data",
+      "customer": "Personal project",
+      "teamSize": 1,
+      "position": "Developer"
+    },
+    {
+      "title": "Online Wedding Invitation",
+      "dates": "October 2026",
+      "description": "Online wedding invitation in two editions (deep red / navy) for the 29 Dec 2026 wedding: program, maps, and a separate guestbook per edition. Deployed on Cloudflare Pages, fast on mobile.",
+      "technologies": ["HTML", "CSS", "JavaScript", "Cloudflare Pages"],
+      "source": "data",
+      "customer": "Private client (wedding)",
+      "teamSize": 1,
+      "position": "Developer"
+    },
+    {
+      "title": "Digital Storefront",
+      "dates": "2025",
+      "description": "Storefront for accounts, courses, and downloadable content, with cart, PayPal checkout, gift codes, and an admin console. A NestJS API serves web and mobile clients, and a chat bot answers from shop data with RAG. Built for an Australian client.",
+      "technologies": [
+        "Next.js",
+        "NestJS",
+        "PostgreSQL",
+        "Prisma",
+        "PayPal",
+        "RAG"
+      ],
+      "source": "data",
+      "customer": "Australian client",
+      "teamSize": 1,
+      "position": "Developer"
+    },
+    {
+      "title": "eSIM Shop",
+      "dates": "2025",
+      "description": "eSIM shop with country catalogs, checkout, top-ups, order history, referrals, loyalty, and an admin for products, providers, and commissions. Built for an Australian client.",
+      "technologies": ["Next.js", "MySQL", "Prisma", "Cloudflare R2"],
+      "source": "data",
+      "customer": "Australian client",
+      "teamSize": 1,
+      "position": "Developer"
+    },
+    {
+      "title": "AI Auto-Reply",
+      "dates": "2025",
+      "description": "AI auto-reply SaaS that replies on Slack, LINE, Chatwork, and Facebook Messenger, then creates Google Calendar tasks from the conversation. Built for a Japanese client.",
+      "technologies": [
+        "React",
+        "TypeScript",
+        "Express",
+        "MongoDB",
+        "Stripe",
+        "OpenAI"
+      ],
+      "source": "data",
+      "customer": "Japanese client",
+      "teamSize": 1,
+      "position": "Developer"
+    },
+    {
+      "title": "Service Booking",
+      "dates": "2023",
+      "description": "Service booking platform with a customer web app, a mobile app, a vendor portal, and an admin console. Covers one-time and recurring bookings, quotes, invoices, GST, and technician scheduling. Built for a Singapore client.",
+      "technologies": [
+        "React",
+        "TypeScript",
+        "React Native",
+        "Node.js",
+        "MySQL",
+        "Stripe"
+      ],
+      "source": "data",
+      "customer": "Singapore client",
+      "teamSize": 1,
+      "position": "Developer"
+    }
+  ]
+}

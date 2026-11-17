@@ -40,6 +40,19 @@
   --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
   --color-sidebar-border: var(--sidebar-border);
   --color-sidebar-ring: var(--sidebar-ring);
+  --color-brand-link: #1f8f45;
+  --color-brand-accent: #e46a2a;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
 }
 
 :root {
@@ -133,7 +146,7 @@
     background-color: transparent;
   }
 
-.prose pre {
+  .prose pre {
     @apply leading-relaxed bg-transparent! font-mono!;
   }
 
@@ -141,7 +154,8 @@
     @apply m-0! mx-1! border rounded-md! px-1.5 py-0.5 bg-muted/60 dark:bg-muted/40 text-[13px]! font-mono text-foreground/90!;
   }
 
-  .prose code::before, .prose code::after {
+  .prose code::before,
+  .prose code::after {
     @apply content-none!;
   }
 
@@ -170,11 +184,11 @@
   }
 
   .prose a {
-    @apply text-primary underline underline-offset-4;
+    @apply text-brand-link underline underline-offset-4;
   }
 
   .prose blockquote {
-    @apply border-l-4 border-amber-500! pl-4 italic bg-muted/50 p-4 rounded-md rounded-l-none;
+    @apply border-l-4 border-brand-accent! pl-4 italic bg-muted/50 p-4 rounded-md rounded-l-none;
   }
 
   .prose blockquote p {
@@ -212,7 +226,7 @@
     @apply px-6 py-4 align-middle m-0 whitespace-nowrap;
   }
 
-  .prose tr{
+  .prose tr {
     @apply hover:bg-accent/50! transition-colors! cursor-pointer! h-10!;
   }
 
@@ -232,5 +246,4 @@
   .prose :where(tbody tr:last-child td):not(:where([class~="not-prose"] *)) {
     @apply border-b-0;
   }
-
 }

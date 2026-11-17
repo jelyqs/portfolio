@@ -26,6 +26,9 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   metadataBase: new URL(DATA.url),
+  alternates: {
+    canonical: DATA.url,
+  },
   title: {
     default: `${DATA.name} | ${DATA.jobTitle}`,
     template: `%s | ${DATA.name}`,
@@ -79,6 +82,24 @@ export const metadata: Metadata = {
   },
 };
 
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Person",
+  name: DATA.name,
+  jobTitle: DATA.jobTitle,
+  url: DATA.url,
+  image: `${DATA.url}${DATA.avatarUrl}`,
+  email: DATA.contact.email,
+  address: {
+    "@type": "PostalAddress",
+    addressLocality: "Da Nang",
+    addressCountry: "VN",
+  },
+  sameAs: Object.values(DATA.contact.social)
+    .map((s) => s.url)
+    .filter((url) => url.startsWith("http")),
+};
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -94,6 +115,10 @@ export default function RootLayout({
         )}
         suppressHydrationWarning
       >
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        />
         <ThemeProvider attribute="class" defaultTheme="dark">
           <LocaleProvider>
             <TooltipProvider delayDuration={0}>

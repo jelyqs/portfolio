@@ -60,7 +60,7 @@ export default function Page() {
         <div className="mx-auto w-full max-w-2xl space-y-8">
           <div className="gap-2 gap-y-6 flex flex-col md:flex-row justify-between">
             <div className="gap-2 flex flex-col order-2 md:order-1">
-              <div className="flex items-center gap-2">
+              <h1 className="flex items-center gap-2">
                 <BlurFadeText
                   delay={BLUR_FADE_DELAY}
                   className="text-3xl font-semibold tracking-tighter sm:text-4xl lg:text-5xl"
@@ -72,7 +72,7 @@ export default function Page() {
                 <span aria-hidden className="text-3xl leading-none select-none">
                   👋
                 </span>
-              </div>
+              </h1>
               <BlurFade delay={BLUR_FADE_DELAY}>
                 <div className="flex flex-col gap-2">
                   <div className="prose prose-p:my-1 prose-a:text-brand-link max-w-150 text-muted-foreground md:text-lg lg:text-xl dark:prose-invert">

@@ -7,6 +7,15 @@ This site is a public portfolio. **No authentication is required for anything on
 - There is no OAuth, OIDC, or token endpoint on this site (none is published because none exists).
 - The MCP server at `/mcp` is public, read-only, and stateless: no session, no API key, no auth header.
 
+## Agent Registration
+
+**Agent registration: not required.** There is no registration endpoint, no
+signup form, no approval step, and no API key. Agents do not need to register
+to use this site — simply start calling the public MCP server and discovery
+endpoints listed below. To register your agent as a consumer of this
+portfolio's machine-readable interfaces, no action is needed: access is open
+and anonymous.
+
 ## Public discovery endpoints
 
 - AI catalog: https://thunguyenit.com/.well-known/ai-catalog.json

@@ -7,6 +7,7 @@ export function GET() {
   const url = DATA.url;
   const body = {
     protocol_version: "1.0",
+    specVersion: "1.0",
     site: {
       name: `${DATA.name} — Portfolio`,
       description: DATA.description,

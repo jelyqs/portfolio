@@ -1,4 +1,4 @@
-# Authentication — thunguyenit.com
+# auth.md — Authentication for thunguyenit.com
 
 This site is a public portfolio. **No authentication is required for anything on this site.**
 

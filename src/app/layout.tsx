@@ -122,6 +122,27 @@ export default function RootLayout({
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
         />
+        {/* Google Analytics 4 (G-6Z3S9KRQWW) */}
+        <script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-6Z3S9KRQWW"
+        />
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-6Z3S9KRQWW');
+            `,
+          }}
+        />
+        {/* Cloudflare Web Analytics */}
+        <script
+          type="module"
+          src="https://static.cloudflareinsights.com/beacon.min.js"
+          data-cf-beacon='{"token": "31dc3199a13b400ab612f5d188549c8d"}'
+        />
         <ThemeProvider attribute="class" defaultTheme="dark">
           <LocaleProvider>
             <TooltipProvider delayDuration={0}>

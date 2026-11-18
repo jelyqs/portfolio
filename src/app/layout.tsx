@@ -122,6 +122,12 @@ export default function RootLayout({
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
         />
+        {/* Agent discovery: AI catalog (ARD). App Router has no Metadata API
+            for arbitrary link rels, so the tag is rendered directly. */}
+        <link
+          rel="ai-catalog"
+          href={`${DATA.url}/.well-known/ai-catalog.json`}
+        />
         {/* Google Analytics 4 (G-6Z3S9KRQWW) */}
         <script
           async

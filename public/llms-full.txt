@@ -1,0 +1,189 @@
+# Thu Nguyen (Jely) — Portfolio (full)
+
+> Full-stack Software Engineer & Freelancer based in Da Nang, Vietnam.
+> Website: https://thunguyenit.com — Resume: https://jelyqs.github.io/resume.pdf
+
+## Profile
+
+I'm a seasoned Software Engineer with over 7 years of hands-on experience in designing, developing, and deploying high-quality web and mobile applications. My passion lies in solving complex problems and building robust, scalable solutions from the ground up.
+
+My expertise spans the full stack, from creating intuitive user interfaces with React / Next.js to engineering powerful back-end systems with PHP / Laravel and Node.js / Express / NestJS. I am also proficient in leveraging AWS services for scalable cloud infrastructure and have strong DevOps skills in managing and automating deployments on Linux (Ubuntu) servers.
+
+- Currently working on building scalable microservices and enhancing cloud infrastructure.
+- Currently learning more about Serverless Architecture and advanced CI/CD pipelines.
+- Ask me about anything related to web development!
+
+Stats: 7+ years experience · 30+ production apps · 4 countries · 8 companies served.
+
+Education: Vietnam - Korea University of Information and Communication Technology — Computer Science (2013 - 2016).
+
+## Contact
+
+- Email: jely.big@gmail.com (also thunguyen.developer@gmail.com)
+- Phone: +84 359 399 320
+- GitHub: https://github.com/jelyqs
+- Facebook: https://www.facebook.com/Jely.Big/
+- WhatsApp: https://wa.me/84359399320
+- itch.io: https://jelyqs.itch.io
+
+## Projects
+
+### Cozy Game Assets (itch.io) (2024 - Present, active)
+
+Original cozy pixel icons, UI kits, combat VFX, and game audio packs — made with code, no generative AI art. Free minis and full packs for indie developers.
+Tech: Pixel Art, Game Audio, UI Kits, itch.io. Store: https://jelyqs.itch.io
+
+### Friend Debt Tracker (Oct 2026, active)
+
+Mobile app for tracking money lent between friends: two-sided confirmations, auto reminders, history, and 30-day trash. Includes a web admin for users, debts, and violation reports.
+Tech: React Native, TypeScript, Firebase, FCM.
+
+### PayPal Sandbox Autofill (Oct 2026)
+
+Chrome extension (MV3) that fills PayPal sandbox test-card data into checkout forms — no more copy-pasting sandbox emails and passwords for every test run.
+Tech: TypeScript, Chrome Extension.
+
+### Online Wedding Invitation (Oct 2026)
+
+Online wedding invitation in two editions (deep red / navy) for the 29 Dec 2026 wedding: program, maps, and a separate guestbook per edition. Deployed on Cloudflare Pages, fast on mobile.
+Tech: HTML, CSS, JavaScript, Cloudflare Pages. Red edition: https://hang-thinh.pages.dev — Navy edition: https://thinh-hang.pages.dev
+
+### Digital Storefront (2025, active)
+
+Storefront for accounts, courses, and downloadable content, with cart, PayPal checkout, gift codes, and an admin console. A NestJS API serves web and mobile clients, and a chat bot answers from shop data with RAG. Built for an Australian client.
+Tech: Next.js, NestJS, PostgreSQL, Prisma, PayPal, RAG.
+
+### eSIM Shop (2025, active)
+
+eSIM shop with country catalogs, checkout, top-ups, order history, referrals, loyalty, and an admin for products, providers, and commissions. Built for an Australian client.
+Tech: Next.js, MySQL, Prisma, Cloudflare R2.
+
+### AI Auto-Reply (2025)
+
+AI auto-reply SaaS that replies on Slack, LINE, Chatwork, and Facebook Messenger, then creates Google Calendar tasks from the conversation. Built for a Japanese client.
+Tech: React, TypeScript, Express, MongoDB, Stripe, OpenAI.
+
+### Service Booking (2023)
+
+Service booking platform with a customer web app, a mobile app, a vendor portal, and an admin console. Covers one-time and recurring bookings, quotes, invoices, GST, and technician scheduling. Built for a Singapore client.
+Tech: React, TypeScript, React Native, Node.js, MySQL, Stripe.
+
+## Work history (full-time)
+
+### Kozocom Vietnam Co., Ltd — Full-stack Software Engineer (Oct 2022 - Present), Da Nang, Vietnam
+
+- Build and maintain web platforms for Japanese clients in e-commerce, corporate catering, and renewable-energy management
+- Ship features and fix production bugs across the stack with NestJS, React, and AWS serverless (Amplify, AppSync, Lambda, DynamoDB)
+- Maintain management tools and sync product data across WooCommerce, Amazon, and Shopify
+- Customize Shopify storefronts and integrate third-party packages, plugins, and APIs
+- Work with AWS services including IAM, Amplify, Lambda, API Gateway, and CloudWatch
+- Set up an AI-assisted workflow with Claude Code for specs, QA, and code review
+
+Tech: TypeScript, React/Next.js, PHP/Laravel, Node.js/NestJS, WordPress, Shopify, Docker, AWS, MySQL, PostgreSQL, DynamoDB, REST API, API Gateway, Amplify, AppSync, Lambda, CloudWatch.
+
+### UOYMedia — PHP Software Engineer (Jun 2021 - Sep 2022), Da Nang, Vietnam
+
+- Built and maintained tooling for a POD print business serving US/EU markets
+- Synced product data between WooCommerce, Amazon, and Shopify
+- Customized WordPress landing pages and Shopify interfaces
+- Wrote shortcodes and plugins for cart and order flows
+- Integrated Google Sheets, Google Analytics, and Facebook Ads APIs
+
+Tech: JavaScript, PHP/Laravel, WordPress, Shopify, Docker, MySQL, REST API.
+
+### LINKHOUSE — PHP Software Engineer (Mar 2019 - May 2021), Da Nang, Vietnam
+
+- Built the HR module of a real-estate CRM: attendance, payroll, commission, leave, and overtime
+- Built customer management with profiles and loyalty points
+- Built project management with booking and listings
+- Delivered REST APIs for the mobile app
+
+Tech: JavaScript, PHP/Laravel, Firebase, MySQL, REST API.
+
+### MWG — IT Support (Aug 2016 - Jun 2018), Da Nang, Vietnam
+
+- Provided software technical support
+
+## Freelance & side projects
+
+### Vietnam (2018 - Present)
+
+Built social-service, file-download, boarding-house, and shop products for Vietnamese clients, plus a friend debt-tracking app.
+
+- Social Service Panel: social-service platform for TikTok, YouTube, and Facebook orders, with a wallet, proxy inventory, and seller tools.
+- File Download Service: membership packages, download history, referrals, and withdrawals.
+- Boarding House Manager: buildings, rooms, check-in and check-out, deposits, invoices, and repair costs.
+- Online Shop: product pages, cart, checkout, VietQR payment, and order history.
+- Friend Debt Tracker: mobile app for tracking money lent between friends, with confirmations, reminders, and an admin console.
+- Social ID Lookup: browser extension that reads a Facebook profile, page, or group URL and returns its ID.
+
+Tech: PHP/Laravel, MySQL, React Native, Firebase, JavaScript, Tailwind CSS, Docker, Chrome Extension.
+
+### Australia (Mar 2025 - Present)
+
+Shipped a digital storefront, an eSIM shop, car valuation, a horoscope product, and automation tools for Australian clients.
+
+- Digital Storefront, eSIM Shop (see Projects above)
+- Horoscope Studio: chart lookups, predictions, feng shui, lunar dates, and paid readings. OpenAI writes interpretations from chart data with RAG.
+- Vehicle Valuation: car valuation flow with vehicle details, photo listings, and payment history. OpenAI writes the appraisal with RAG.
+- Proxy Sales Bot: Telegram bot for selling and managing proxies, with wallet top-up, orders, and an admin dashboard.
+- Access Code Forwarder: scans household account emails and forwards access codes to matching customers.
+- Text-to-Speech: generates voices from written text (ElevenLabs).
+- Short-Video Transcription: command-line pipeline that transcribes short-form videos.
+- Service Marketing Site: marketing site for website and design packages.
+
+Tech: Next.js, NestJS, Python, MySQL, PostgreSQL, Prisma, PayPal, Redis, Telegram, Cloudflare R2, OpenAI, RAG.
+
+### Japan (May 2025 - Jun 2026)
+
+Shipped full-stack products for Japanese clients: a creator marketplace, LED ad bidding, an AI auto-reply SaaS, catalog OCR, rental operations, and Amazon selling tools. (Project names have been changed for NDA reasons.)
+
+- Creator Marketplace: paid livestreams, VOD sales, 1:1 video calls, fan clubs, tickets, and Stripe billing including konbini.
+- Billboard Marketplace: time-slot bidding, video upload and approval, invoices, and an admin dashboard.
+- AI Auto-Reply (see Projects above)
+- Catalog OCR: extracts structured fields from Japanese product catalogs, exports CSV and Excel.
+- Rental Operations: contracts, partners, delinquency, remittance, renewal fees, and collection-agency workflows.
+- Cross-Border Listings: Japan–US Amazon selling tool with regional storefronts (US, Australia, Canada, Singapore, eBay).
+- Subscription Bot: Discord bot selling monthly plans through Stripe.
+
+Tech: React/TypeScript, Node.js/Express, Python/FastAPI, MongoDB, PostgreSQL, Stripe, AWS, WebRTC, Tailwind CSS, OpenAI.
+
+### Singapore (Nov 2023 - Dec 2024, part-time)
+
+Built booking, HR, lending, fleet, and operations products for Singapore clients, plus company and marketing sites.
+
+- Service Booking (see Projects above)
+- HR Platform: payroll and payslips, leave, hiring and interviews, organization structure, and desk and room booking.
+- Field Operations: door projects — customers, employees, phased jobs, inventory, warranty and maintenance, GST reports.
+- Fleet Operations: drivers, vehicles, route planning, customers, promotions, and finance.
+- Loan Platform: applications, offers and counter-offers, repayments, appointments, and Singpass sign-in.
+- Company Site and Marketing Sites: React frontend + WordPress.
+
+Tech: React/TypeScript, React Native, Node.js/Express, PHP/Laravel, MySQL, WordPress, Stripe, Redis, Docker, CodeIgniter.
+
+## Skills
+
+- Languages: JavaScript, TypeScript, PHP, Python, Bash Shell
+- Engineering Practices: OOP, Clean Code, Design Patterns (Factory, Singleton, Observer)
+- Backend: Laravel, Node.js, Express, NestJS, FastAPI, CodeIgniter
+- Frontend: React, Next.js, React Native, Vue, Redux, Apollo Client, Tailwind CSS, shadcn/ui, MUI, Bootstrap, SASS, HTML5, CSS3, Responsive Web Design, Vite, Webpack, Babel, Ajax
+- Databases & ORM: MySQL, PostgreSQL, MongoDB, Redis, DynamoDB, SQLite, AWS Aurora, Elasticsearch, Prisma, Eloquent, Doctrine, Sequelize, TypeORM
+- CMS & E-commerce: WordPress, Shopify
+- Cloud: AWS, EC2, Lambda, API Gateway, AppSync, Amplify, RDS, AWS S3, CloudWatch, Load Balancer, Auto Scaling, AWS CDK, AWS SAM, Serverless Framework, AWS IVS, Amazon Chime, Firebase, Cloud Functions
+- DevOps & Servers: Docker, CI/CD, GitHub Actions, CircleCI, Jenkins, Terraform, Ansible, Linux (Ubuntu, CentOS, Amazon Linux), VPS setup, Nginx, Apache2, PHP-FPM, PM2, Supervisor, Crontab, Prometheus, Grafana, cPanel
+- APIs, Auth & Payments: REST API, GraphQL, WebSocket, WebRTC, Swagger, JWT, OAuth2, Auth0, Stripe, PayPal
+- AI: OpenAI, RAG, Prompt Engineering
+- Libraries & Integrations: Chrome Extension, Telegram Bot, Discord.js, mediasoup, ElevenLabs
+- Testing: Unit test, Performance testing, Jest
+- Tools: Git, VS Code, Cursor, GitHub Copilot, Postman, Altair GraphQL, Laravel Valet, npm, Yarn, pnpm, Jira, Backlog, Notion, Figma, Adobe XD
+- Soft Skills: Problem investigation, Presentation skills, Project management, Solution design, Technical management
+
+## Machine-readable endpoints
+
+- AI catalog: https://thunguyenit.com/.well-known/ai-catalog.json
+- API catalog: https://thunguyenit.com/.well-known/api-catalog
+- Agent skills: https://thunguyenit.com/.well-known/agent-skills/index.json
+- MCP server (Streamable HTTP, JSON-RPC): https://thunguyenit.com/mcp — tools: get_profile, list_projects, list_work, get_contact
+- MCP server card: https://thunguyenit.com/.well-known/mcp/server-card.json
+- Auth info: https://thunguyenit.com/auth.md
+- Markdown homepage: GET https://thunguyenit.com/ with `Accept: text/markdown`

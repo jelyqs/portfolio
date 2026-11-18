@@ -1,0 +1,58 @@
+# Thu Nguyen (Jely) — Portfolio
+
+> Full-stack Software Engineer & Freelancer based in Da Nang, Vietnam.
+> 7+ years experience in software development. Passionate about building scalable and efficient web applications.
+
+- Website: https://thunguyenit.com
+- Resume: https://jelyqs.github.io/resume.pdf
+- Email: jely.big@gmail.com
+- Phone: +84 359 399 320
+- GitHub: https://github.com/jelyqs
+- Facebook: https://www.facebook.com/Jely.Big/
+- WhatsApp: https://wa.me/84359399320
+- itch.io: https://jelyqs.itch.io
+
+## Highlights
+
+- 7+ years experience
+- 30+ production apps
+- 4 countries (Vietnam, Australia, Japan, Singapore)
+- 8 companies served
+
+## What Thu does
+
+Full-stack web and mobile development: intuitive UIs with React / Next.js, back-end systems with PHP / Laravel and Node.js / Express / NestJS, AWS cloud infrastructure, and DevOps on Linux (Ubuntu) servers. Also builds automation, bots, and AI-assisted tools (OpenAI, RAG).
+
+## Projects
+
+- Cozy Game Assets (itch.io) (2024 - Present): Original cozy pixel icons, UI kits, combat VFX, and game audio packs — made with code, no generative AI art. https://jelyqs.itch.io
+- Friend Debt Tracker (Oct 2026): Mobile app for tracking money lent between friends: two-sided confirmations, auto reminders, history, and 30-day trash. React Native, TypeScript, Firebase, FCM.
+- PayPal Sandbox Autofill (Oct 2026): Chrome extension (MV3) that fills PayPal sandbox test-card data into checkout forms. TypeScript, Chrome Extension.
+- Online Wedding Invitation (Oct 2026): Online wedding invitation in two editions for the 29 Dec 2026 wedding. https://hang-thinh.pages.dev
+- Digital Storefront (2025): Storefront for accounts, courses, and downloadable content, with cart, PayPal checkout, gift codes, and an admin console. Australian client. Next.js, NestJS, PostgreSQL, Prisma, PayPal, RAG.
+- eSIM Shop (2025): eSIM shop with country catalogs, checkout, top-ups, order history, referrals, loyalty, and an admin. Australian client. Next.js, MySQL, Prisma, Cloudflare R2.
+- AI Auto-Reply (2025): AI auto-reply SaaS for Slack, LINE, Chatwork, and Facebook Messenger, creating Google Calendar tasks from conversations. Japanese client. React, TypeScript, Express, MongoDB, Stripe, OpenAI.
+- Service Booking (2023): Service booking platform with customer web app, mobile app, vendor portal, and admin console. Singapore client. React, TypeScript, React Native, Node.js, MySQL, Stripe.
+
+## Skills
+
+TypeScript, JavaScript, PHP, Python, React, Next.js, React Native, Node.js, NestJS, Express, FastAPI, Laravel, MySQL, PostgreSQL, MongoDB, Redis, Prisma, AWS (Lambda, Amplify, AppSync, DynamoDB), Firebase, Docker, CI/CD, WordPress, Shopify, Stripe, PayPal, OpenAI, RAG.
+
+## Work history
+
+- Kozocom Vietnam Co., Ltd — Full-stack Software Engineer (Oct 2022 - Present), Da Nang, Vietnam
+- UOYMedia — PHP Software Engineer (Jun 2021 - Sep 2022), Da Nang, Vietnam
+- LINKHOUSE — PHP Software Engineer (Mar 2019 - May 2021), Da Nang, Vietnam
+- MWG — IT Support (Aug 2016 - Jun 2018), Da Nang, Vietnam
+- Freelance: Vietnam (2018 - Present), Australia (Mar 2025 - Present), Japan (May 2025 - Jun 2026), Singapore (Nov 2023 - Dec 2024)
+
+## More machine-readable info
+
+- Full details: https://thunguyenit.com/llms-full.txt
+- Auth (public site, no login needed): https://thunguyenit.com/auth.md
+- AI catalog: https://thunguyenit.com/.well-known/ai-catalog.json
+- API catalog: https://thunguyenit.com/.well-known/api-catalog
+- Agent skills: https://thunguyenit.com/.well-known/agent-skills/index.json
+- MCP server (Streamable HTTP, JSON-RPC): https://thunguyenit.com/mcp
+- MCP server card: https://thunguyenit.com/.well-known/mcp/server-card.json
+- Markdown version of the homepage: GET https://thunguyenit.com/ with `Accept: text/markdown`

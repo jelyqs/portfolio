@@ -11,6 +11,7 @@ import WorkSection from "@/components/section/work-section";
 import FreelanceSection from "@/components/section/freelance-section";
 import SkillsSection from "@/components/section/skills-section";
 import { isActionableHref } from "@/lib/utils";
+import WebMcpTools from "@/components/webmcp-tools";
 import { ArrowUpRight, GraduationCap } from "lucide-react";
 import { useLocale, useResume } from "@/i18n/locale-provider";
 import Image from "next/image";
@@ -56,6 +57,7 @@ export default function Page() {
 
   return (
     <main className="min-h-dvh flex flex-col gap-14 relative">
+      <WebMcpTools />
       <section id="hero">
         <div className="mx-auto w-full max-w-2xl space-y-8">
           <div className="gap-2 gap-y-6 flex flex-col md:flex-row justify-between">

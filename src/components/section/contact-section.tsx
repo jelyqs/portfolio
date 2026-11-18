@@ -36,14 +36,14 @@ export default function ContactSection() {
             href={DATA.contact.social.Facebook.url}
             target="_blank"
             rel="noopener noreferrer"
-            className="text-brand-link hover:underline underline-offset-4 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 rounded-sm"
+            className="text-brand-link underline underline-offset-4 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 rounded-sm"
           >
             Facebook
           </Link>{" "}
           {messages.ui.contactBodyOr}{" "}
           <Link
             href={DATA.contact.social.email.url}
-            className="text-brand-link hover:underline underline-offset-4 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 rounded-sm"
+            className="text-brand-link underline underline-offset-4 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 rounded-sm"
           >
             {DATA.contact.email}
           </Link>

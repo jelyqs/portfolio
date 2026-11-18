@@ -108,7 +108,7 @@ export function ProjectCard({
                   onClick={(e) => e.stopPropagation()}
                 >
                   <Badge
-                    className="flex items-center gap-1.5 text-xs bg-black text-white hover:bg-black/90"
+                    className="flex items-center gap-1.5 text-xs bg-black text-white hover:bg-black/90 min-h-6"
                     variant="default"
                   >
                     {link.icon}
@@ -118,7 +118,7 @@ export function ProjectCard({
               ) : (
                 <Badge
                   key={idx}
-                  className="flex items-center gap-1.5 text-xs bg-black text-white"
+                  className="flex items-center gap-1.5 text-xs bg-black text-white min-h-6"
                   variant="default"
                 >
                   {link.icon}

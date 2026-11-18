@@ -1,7 +1,10 @@
 import { DATA } from "@/data/resume";
 
 // robots.txt as a route handler (MetadataRoute.Robots cannot express
-// Content-Signal or Agentmap).
+// Content-Signal).
+// NOTE: no Agentmap line here — it is not a valid robots.txt directive and
+// Lighthouse/SEO validators flag it ("Unknown directive"). Agent discovery
+// stays covered by the homepage Link header and <link rel="ard"> tag.
 export function GET() {
   const body = [
     "User-Agent: *",
@@ -11,7 +14,6 @@ export function GET() {
     "Content-Signal: ai-train=no, search=yes, ai-input=yes",
     "",
     `Sitemap: ${DATA.url}/sitemap.xml`,
-    `Agentmap: ${DATA.url}/.well-known/ai-catalog.json`,
     "",
   ].join("\n");
 

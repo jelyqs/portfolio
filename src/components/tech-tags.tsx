@@ -31,7 +31,7 @@ export function TechTags({
         <button
           type="button"
           onClick={() => setExpanded((value) => !value)}
-          className="text-[11px] font-medium text-brand-accent hover:underline underline-offset-2"
+          className="text-[11px] font-medium text-brand-accent hover:underline underline-offset-2 min-h-6 min-w-6 px-1.5"
           aria-expanded={expanded}
         >
           {expanded

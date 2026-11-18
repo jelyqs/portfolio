@@ -1,7 +1,6 @@
 "use client";
 
 import BlurFade from "@/components/magicui/blur-fade";
-import BlurFadeText from "@/components/magicui/blur-fade-text";
 import { RichText } from "@/components/rich-text";
 import Link from "next/link";
 import ContactSection from "@/components/section/contact-section";
@@ -63,20 +62,16 @@ export default function Page() {
           <div className="gap-2 gap-y-6 flex flex-col md:flex-row justify-between">
             <div className="gap-2 flex flex-col order-2 md:order-1">
               <h1 className="flex items-center gap-2">
-                <BlurFadeText
-                  delay={BLUR_FADE_DELAY}
-                  className="text-3xl font-semibold tracking-tighter sm:text-4xl lg:text-5xl"
-                  yOffset={8}
-                  text={t(messages.ui.greeting, {
+                <span className="inline-block whitespace-pre-line text-3xl font-semibold tracking-tighter sm:text-4xl lg:text-5xl">
+                  {t(messages.ui.greeting, {
                     name: data.name.split(" ")[0],
                   })}
-                />
+                </span>
                 <span aria-hidden className="text-3xl leading-none select-none">
                   👋
                 </span>
               </h1>
-              <BlurFade delay={BLUR_FADE_DELAY}>
-                <div className="flex flex-col gap-2">
+              <div className="flex flex-col gap-2">
                   <div className="prose prose-p:my-1 prose-a:text-brand-link max-w-150 text-muted-foreground md:text-lg lg:text-xl dark:prose-invert">
                     <RichText text={data.jobTitle} />
                   </div>
@@ -97,18 +92,16 @@ export default function Page() {
                     </p>
                   ) : null}
                 </div>
-              </BlurFade>
             </div>
-            <BlurFade delay={BLUR_FADE_DELAY} className="order-1 md:order-2">
+            <div className="order-1 md:order-2">
               <Portrait
                 src={data.avatarUrl}
                 alt={data.name}
                 initials={data.initials}
               />
-            </BlurFade>
+            </div>
           </div>
-          <BlurFade delay={BLUR_FADE_DELAY * 2}>
-            <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
+          <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
               {data.stats.map((stat) => (
                 <div
                   key={stat.label}
@@ -122,8 +115,7 @@ export default function Page() {
                   </div>
                 </div>
               ))}
-            </div>
-          </BlurFade>
+          </div>
         </div>
       </section>
       <section id="about">
@@ -169,6 +161,7 @@ export default function Page() {
                     ) : (
                       <div
                         className="size-8 md:size-10 border rounded-full shadow ring-2 ring-border bg-muted flex items-center justify-center flex-none text-foreground"
+                        role="img"
                         aria-label={education.school}
                       >
                         <GraduationCap className="size-4 md:size-5" />

@@ -1,7 +1,7 @@
 # Thu Nguyen (Jely) — Portfolio (full)
 
 > Full-stack Software Engineer & Freelancer based in Da Nang, Vietnam.
-> Website: https://thunguyenit.com — Resume: https://jelyqs.github.io/resume.pdf
+> [Website](https://thunguyenit.com) — [Resume](https://jelyqs.github.io/resume.pdf)
 
 ## Profile
 
@@ -21,17 +21,17 @@ Education: Vietnam - Korea University of Information and Communication Technolog
 
 - Email: jely.big@gmail.com (also thunguyen.developer@gmail.com)
 - Phone: +84 359 399 320
-- GitHub: https://github.com/jelyqs
-- Facebook: https://www.facebook.com/Jely.Big/
-- WhatsApp: https://wa.me/84359399320
-- itch.io: https://jelyqs.itch.io
+- [GitHub](https://github.com/jelyqs)
+- [Facebook](https://www.facebook.com/Jely.Big/)
+- [WhatsApp](https://wa.me/84359399320)
+- [itch.io](https://jelyqs.itch.io)
 
 ## Projects
 
 ### Cozy Game Assets (itch.io) (2024 - Present, active)
 
 Original cozy pixel icons, UI kits, combat VFX, and game audio packs — made with code, no generative AI art. Free minis and full packs for indie developers.
-Tech: Pixel Art, Game Audio, UI Kits, itch.io. Store: https://jelyqs.itch.io
+Tech: Pixel Art, Game Audio, UI Kits, itch.io. Store: [itch.io](https://jelyqs.itch.io)
 
 ### Friend Debt Tracker (Oct 2026, active)
 
@@ -46,7 +46,7 @@ Tech: TypeScript, Chrome Extension.
 ### Online Wedding Invitation (Oct 2026)
 
 Online wedding invitation in two editions (deep red / navy) for the 29 Dec 2026 wedding: program, maps, and a separate guestbook per edition. Deployed on Cloudflare Pages, fast on mobile.
-Tech: HTML, CSS, JavaScript, Cloudflare Pages. Red edition: https://hang-thinh.pages.dev — Navy edition: https://thinh-hang.pages.dev
+Tech: HTML, CSS, JavaScript, Cloudflare Pages. Red edition: [hang-thinh.pages.dev](https://hang-thinh.pages.dev) — Navy edition: [thinh-hang.pages.dev](https://thinh-hang.pages.dev)
 
 ### Digital Storefront (2025, active)
 
@@ -180,10 +180,10 @@ Tech: React/TypeScript, React Native, Node.js/Express, PHP/Laravel, MySQL, WordP
 
 ## Machine-readable endpoints
 
-- AI catalog: https://thunguyenit.com/.well-known/ai-catalog.json
-- API catalog: https://thunguyenit.com/.well-known/api-catalog
-- Agent skills: https://thunguyenit.com/.well-known/agent-skills/index.json
-- MCP server (Streamable HTTP, JSON-RPC): https://thunguyenit.com/mcp — tools: get_profile, list_projects, list_work, get_contact
-- MCP server card: https://thunguyenit.com/.well-known/mcp/server-card.json
-- Auth info: https://thunguyenit.com/auth.md
-- Markdown homepage: GET https://thunguyenit.com/ with `Accept: text/markdown`
+- [AI catalog](https://thunguyenit.com/.well-known/ai-catalog.json)
+- [API catalog](https://thunguyenit.com/.well-known/api-catalog)
+- [Agent skills](https://thunguyenit.com/.well-known/agent-skills/index.json)
+- [MCP server (Streamable HTTP, JSON-RPC)](https://thunguyenit.com/mcp) — tools: get_profile, list_projects, list_work, get_contact
+- [MCP server card](https://thunguyenit.com/.well-known/mcp/server-card.json)
+- [Auth info](https://thunguyenit.com/auth.md)
+- Markdown homepage: GET [https://thunguyenit.com/](https://thunguyenit.com/) with `Accept: text/markdown`

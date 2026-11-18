@@ -30,6 +30,7 @@ function CompanyLogo({ src, alt }: { src: string; alt: string }) {
     return (
       <div
         className="size-10 rounded-lg border border-border bg-muted flex items-center justify-center flex-none text-foreground"
+        role="img"
         aria-label={alt}
       >
         <Building2 className="size-5" />

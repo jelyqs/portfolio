@@ -125,11 +125,47 @@ export const FlickeringGrid: FC<FlickeringGridProps> = ({
       frame = requestAnimationFrame(tick);
     };
 
-    const start = () => {
+    // The static grid is painted once by resize()/draw() above; the flicker
+    // loop is pure decoration, so it must never compete with page load,
+    // hydration, or LCP. It starts only after the page fully loads (or after
+    // a 3s fallback), and then only when the browser is idle.
+    let waitingForLoad = false;
+
+    const beginLoop = () => {
       if (running || reduceMotion || !visible || document.hidden) return;
       running = true;
       lastTime = 0;
       frame = requestAnimationFrame(tick);
+    };
+
+    const scheduleStart = () => {
+      if (running || reduceMotion || !visible || document.hidden) return;
+      if (typeof window.requestIdleCallback === "function") {
+        window.requestIdleCallback(() => beginLoop(), { timeout: 1500 });
+      } else {
+        window.setTimeout(beginLoop, 300);
+      }
+    };
+
+    const start = () => {
+      if (running || reduceMotion || !visible || document.hidden) return;
+      if (document.readyState !== "complete") {
+        if (waitingForLoad) return;
+        waitingForLoad = true;
+        const onLoad = () => {
+          waitingForLoad = false;
+          scheduleStart();
+        };
+        window.addEventListener("load", onLoad, { once: true });
+        window.setTimeout(() => {
+          if (!waitingForLoad) return;
+          waitingForLoad = false;
+          window.removeEventListener("load", onLoad);
+          scheduleStart();
+        }, 3000);
+        return;
+      }
+      scheduleStart();
     };
 
     const intersectionObserver = new IntersectionObserver(([entry]) => {

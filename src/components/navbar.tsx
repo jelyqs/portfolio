@@ -39,6 +39,7 @@ export default function Navbar() {
                   href={item.href}
                   target={isExternal ? "_blank" : undefined}
                   rel={isExternal ? "noopener noreferrer" : undefined}
+                  aria-label={item.label}
                 >
                   <DockIcon className={DOCK_ICON_CLASS}>
                     <item.icon className="size-full rounded-sm overflow-hidden object-contain" />
@@ -70,6 +71,7 @@ export default function Navbar() {
                   href={social.url}
                   target={isExternal ? "_blank" : undefined}
                   rel={isExternal ? "noopener noreferrer" : undefined}
+                  aria-label={social.name}
                 >
                   <DockIcon className={DOCK_ICON_CLASS}>
                     <IconComponent className="size-full rounded-sm overflow-hidden object-contain" />

@@ -6,6 +6,7 @@ import { LocaleProvider } from "@/i18n/locale-provider";
 import { cn } from "@/lib/utils";
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
+import Script from "next/script";
 import "./globals.css";
 import { FlickeringGrid } from "@/components/magicui/flickering-grid-lazy";
 
@@ -128,25 +129,27 @@ export default function RootLayout({
           rel="ai-catalog"
           href={`${DATA.url}/.well-known/ai-catalog.json`}
         />
+        <link rel="ard" href={`${DATA.url}/.well-known/ard.json`} />
+        {/* Analytics load after the page is interactive (lazyOnload) so the
+            third-party scripts never compete with LCP or hydration. The gtag
+            snippet only queues calls into dataLayer, so init order is safe. */}
         {/* Google Analytics 4 (G-6Z3S9KRQWW) */}
-        <script
-          async
+        <Script
           src="https://www.googletagmanager.com/gtag/js?id=G-6Z3S9KRQWW"
+          strategy="lazyOnload"
         />
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `
-              window.dataLayer = window.dataLayer || [];
-              function gtag(){dataLayer.push(arguments);}
-              gtag('js', new Date());
-              gtag('config', 'G-6Z3S9KRQWW');
-            `,
-          }}
-        />
+        <Script id="gtag-init" strategy="lazyOnload">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-6Z3S9KRQWW');
+          `}
+        </Script>
         {/* Cloudflare Web Analytics */}
-        <script
-          type="module"
+        <Script
           src="https://static.cloudflareinsights.com/beacon.min.js"
+          strategy="lazyOnload"
           data-cf-beacon='{"token": "31dc3199a13b400ab612f5d188549c8d"}'
         />
         <ThemeProvider attribute="class" defaultTheme="dark">

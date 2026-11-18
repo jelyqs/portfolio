@@ -76,6 +76,9 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     images: [DATA.bannerUrl],
   },
+  facebook: {
+    appId: "4261157464136425",
+  },
   verification: {
     google: "",
     yandex: "",

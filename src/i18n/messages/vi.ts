@@ -27,6 +27,12 @@ export const messages = {
       "Tôi đã tham gia nhiều dự án, từ website đơn giản đến ứng dụng web phức tạp. Dưới đây là một vài dự án tôi yêu thích.",
     greeting: "Xin chào, tôi là {name}",
     present: "Hiện tại",
+    hireMe: "Liên hệ ngay",
+    viewProjects: "Xem dự án",
+    available: "Đang nhận việc freelance",
+    copyEmail: "Sao chép email",
+    copied: "Đã sao chép!",
+    sections: "Mục lục",
   },
   ...overlay,
 } as const;

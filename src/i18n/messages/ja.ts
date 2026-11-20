@@ -27,6 +27,12 @@ export const messages = {
       "シンプルなウェブサイトから複雑なWebアプリまで、さまざまなプロジェクトに取り組んできました。お気に入りをいくつか紹介します。",
     greeting: "はじめまして、{name}です",
     present: "現在",
+    hireMe: "仕事を依頼する",
+    viewProjects: "プロジェクトを見る",
+    available: "フリーランスの仕事募集中",
+    copyEmail: "メールアドレスをコピー",
+    copied: "コピーしました！",
+    sections: "セクション",
   },
   ...overlay,
 } as const;

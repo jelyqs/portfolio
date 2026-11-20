@@ -3,6 +3,7 @@
 import { Dock, DockIcon } from "@/components/magicui/dock";
 import { LocaleSwitcher } from "@/components/locale-switcher";
 import { ModeToggle } from "@/components/mode-toggle";
+import { SectionNav } from "@/components/section-nav";
 import { Separator } from "@/components/ui/separator";
 import {
   Tooltip,
@@ -57,6 +58,7 @@ export default function Navbar() {
             </Tooltip>
           );
         })}
+        <SectionNav className={DOCK_ICON_CLASS} />
         <Separator
           orientation="vertical"
           className="h-2/3 m-auto w-px bg-border"

@@ -9,6 +9,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import Script from "next/script";
 import "./globals.css";
 import { FlickeringGrid } from "@/components/magicui/flickering-grid-lazy";
+import { ScrollProgress } from "@/components/scroll-progress";
 
 const geist = Geist({
   subsets: ["latin"],
@@ -17,9 +18,11 @@ const geist = Geist({
   display: "swap",
 });
 
+// Mono is only used semibold (the ">_" mark in Skills and the 404 page),
+// so a single 600 weight covers every usage.
 const geistMono = Geist_Mono({
   subsets: ["latin"],
-  weight: ["400", "500"],
+  weight: ["600"],
   variable: "--font-mono",
   display: "swap",
   preload: false,
@@ -152,6 +155,7 @@ export default function RootLayout({
           strategy="lazyOnload"
           data-cf-beacon='{"token": "31dc3199a13b400ab612f5d188549c8d"}'
         />
+        <ScrollProgress />
         <ThemeProvider attribute="class" defaultTheme="dark">
           <LocaleProvider>
             <TooltipProvider delayDuration={0}>

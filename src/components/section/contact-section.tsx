@@ -1,12 +1,32 @@
 "use client";
 
+import { useState } from "react";
 import Link from "next/link";
+import { Check, Copy } from "lucide-react";
 import { FlickeringGrid } from "@/components/magicui/flickering-grid-lazy";
+import { Icons } from "@/components/icons";
+import { Button } from "@/components/ui/button";
 import { DATA } from "@/data/resume";
 import { useLocale } from "@/i18n/locale-provider";
 
 export default function ContactSection() {
   const { messages } = useLocale();
+  const [copied, setCopied] = useState(false);
+
+  const copyEmail = async () => {
+    try {
+      await navigator.clipboard.writeText(DATA.contact.email);
+    } catch {
+      const textarea = document.createElement("textarea");
+      textarea.value = DATA.contact.email;
+      document.body.appendChild(textarea);
+      textarea.select();
+      document.execCommand("copy");
+      document.body.removeChild(textarea);
+    }
+    setCopied(true);
+    window.setTimeout(() => setCopied(false), 2000);
+  };
 
   return (
     <div className="border rounded-xl p-10 relative">
@@ -49,6 +69,52 @@ export default function ContactSection() {
           </Link>
           {messages.ui.contactBodyAfter}
         </p>
+        <div className="flex flex-wrap items-center justify-center gap-2.5 pt-2">
+          <Button asChild variant="outline">
+            <a
+              href={DATA.contact.social.WhatsApp.url}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Icons.whatsapp className="mr-2 size-4" aria-hidden />
+              WhatsApp
+            </a>
+          </Button>
+          <Button asChild variant="outline">
+            <a href={DATA.contact.social.email.url}>
+              <Icons.email className="mr-2 size-4" aria-hidden />
+              Email
+            </a>
+          </Button>
+          <Button asChild variant="outline">
+            <a
+              href={DATA.contact.social.Facebook.url}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Icons.facebook className="mr-2 size-4" aria-hidden />
+              Facebook
+            </a>
+          </Button>
+          <Button asChild variant="outline">
+            <a
+              href={DATA.contact.social.LinkedIn.url}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Icons.linkedin className="mr-2 size-4" aria-hidden />
+              LinkedIn
+            </a>
+          </Button>
+          <Button variant="outline" onClick={copyEmail}>
+            {copied ? (
+              <Check className="mr-2 size-4" aria-hidden />
+            ) : (
+              <Copy className="mr-2 size-4" aria-hidden />
+            )}
+            {copied ? messages.ui.copied : messages.ui.copyEmail}
+          </Button>
+        </div>
       </div>
     </div>
   );

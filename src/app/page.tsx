@@ -11,10 +11,12 @@ import FreelanceSection from "@/components/section/freelance-section";
 import SkillsSection from "@/components/section/skills-section";
 import { isActionableHref } from "@/lib/utils";
 import WebMcpTools from "@/components/webmcp-tools";
-import { ArrowUpRight, GraduationCap } from "lucide-react";
+import { ArrowDown, ArrowUpRight, GraduationCap, MessageCircle } from "lucide-react";
 import { useLocale, useResume } from "@/i18n/locale-provider";
 import Image from "next/image";
 import { useState } from "react";
+import { Button } from "@/components/ui/button";
+import { CountUp } from "@/components/count-up";
 
 const BLUR_FADE_DELAY = 0.04;
 
@@ -78,6 +80,13 @@ export default function Page() {
                   <div className="prose prose-p:my-1 prose-a:text-brand-link max-w-150 text-base text-muted-foreground dark:prose-invert">
                     <RichText text={data.description} />
                   </div>
+                  <span className="inline-flex w-fit items-center gap-2 rounded-full border border-border bg-card/60 px-3 py-1 text-xs font-medium text-foreground">
+                    <span className="relative flex size-2">
+                      <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-emerald-500 opacity-75" />
+                      <span className="relative inline-flex size-2 rounded-full bg-emerald-500" />
+                    </span>
+                    {messages.ui.available}
+                  </span>
                   {isActionableHref(data.resumeUrl) ? (
                     <p className="text-sm text-muted-foreground">
                       {messages.ui.resume}:{" "}
@@ -91,6 +100,23 @@ export default function Page() {
                       </Link>
                     </p>
                   ) : null}
+                  <div className="flex flex-wrap items-center gap-3 pt-1">
+                    <Button asChild size="lg">
+                      <a href="#contact">
+                        <MessageCircle
+                          className="mr-2 size-4"
+                          aria-hidden
+                        />
+                        {messages.ui.hireMe}
+                      </a>
+                    </Button>
+                    <Button asChild size="lg" variant="outline">
+                      <a href="#projects">
+                        {messages.ui.viewProjects}
+                        <ArrowDown className="ml-2 size-4" aria-hidden />
+                      </a>
+                    </Button>
+                  </div>
                 </div>
             </div>
             <div className="order-1 md:order-2">
@@ -108,7 +134,7 @@ export default function Page() {
                   className="rounded-xl border border-border bg-card/60 px-3 py-5 text-center"
                 >
                   <div className="text-2xl sm:text-3xl font-bold tracking-tight text-brand-accent tabular-nums">
-                    {stat.value}
+                    <CountUp value={stat.value} />
                   </div>
                   <div className="mt-1.5 text-xs sm:text-sm text-muted-foreground leading-snug">
                     {stat.label}

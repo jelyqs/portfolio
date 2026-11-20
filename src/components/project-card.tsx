@@ -20,7 +20,7 @@ function ProjectImage({ src, alt }: { src: string; alt: string }) {
       alt={alt}
       fill
       sizes="(min-width: 640px) 380px, 100vw"
-      className="object-cover"
+      className="object-cover transition-transform duration-500 group-hover:scale-105"
       unoptimized={src.endsWith(".svg")}
       onError={() => setImageError(true)}
     />
@@ -68,7 +68,7 @@ export function ProjectCard({
       className="h-48 w-full object-cover"
     />
   ) : image ? (
-    <div className="relative h-48 w-full">
+    <div className="relative h-48 w-full overflow-hidden">
       <ProjectImage src={image} alt={title} />
     </div>
   ) : (
@@ -78,7 +78,7 @@ export function ProjectCard({
   return (
     <div
       className={cn(
-        "flex flex-col h-full border border-border rounded-xl overflow-hidden transition-all duration-200",
+        "group flex flex-col h-full border border-border rounded-xl overflow-hidden transition-all duration-200 hover:-translate-y-1 hover:shadow-lg",
         hasHref && "hover:ring-2 cursor-pointer hover:ring-muted",
         className,
       )}

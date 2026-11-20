@@ -22,7 +22,7 @@ My expertise spans the full stack, from creating intuitive user interfaces with 
 `,
   avatarUrl: "/images/me.jpeg",
   logoUrl: "/favicon/favicon.svg",
-  bannerUrl: "/images/banner.png",
+  bannerUrl: "/images/banner.jpg",
   faviconUrl: "/favicon/favicon.svg",
   stats: [
     { id: "yearsExperience", value: "7+", label: "Years Experience" },

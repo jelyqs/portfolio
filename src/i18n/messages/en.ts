@@ -29,5 +29,11 @@ export const messages = {
       "I've worked on a variety of projects, from simple websites to complex web applications. Here are a few of my favorites.",
     greeting: "Hi, I'm {name}",
     present: "Present",
+    hireMe: "Hire Me",
+    viewProjects: "View Projects",
+    available: "Available for freelance",
+    copyEmail: "Copy email",
+    copied: "Copied!",
+    sections: "Sections",
   },
 } as const;

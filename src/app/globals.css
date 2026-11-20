@@ -44,6 +44,14 @@
   --color-brand-accent: #e46a2a;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+section[id] {
+  scroll-margin-top: 1.5rem;
+}
+
 @media (prefers-reduced-motion: reduce) {
   *,
   *::before,

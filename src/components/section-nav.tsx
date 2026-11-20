@@ -75,8 +75,11 @@ export function SectionNav({ className }: { className?: string }) {
 
   return (
     <div ref={rootRef} className="relative">
+      {/* On narrow screens the popover would overflow the left edge if
+          centered on the button (2nd icon from the left), so it aligns
+          to the button's left edge instead; centered from sm up. */}
       {open ? (
-        <div className="absolute bottom-full left-1/2 mb-3 w-52 -translate-x-1/2 rounded-xl border border-border bg-card p-1.5 shadow-xl">
+        <div className="absolute bottom-full left-0 mb-3 w-52 rounded-xl border border-border bg-card p-1.5 shadow-xl sm:left-1/2 sm:-translate-x-1/2">
           {sections.map((section) => (
             <a
               key={section.id}

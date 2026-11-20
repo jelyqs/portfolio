@@ -14,6 +14,7 @@ import {
   useContext,
   useEffect,
   useRef,
+  useState,
   type MouseEvent,
   type ReactNode,
 } from "react";
@@ -33,14 +34,33 @@ interface DockIconProps {
 const DEFAULT_MAGNIFICATION = 60;
 const DEFAULT_DISTANCE = 100;
 const BASE_SIZE = 40;
-const BASE_ICON_SIZE = 20;
+const BASE_SIZE_COMPACT = 36;
 const ICON_SIZE_RATIO = 0.5;
 const SPRING = { mass: 0.1, stiffness: 150, damping: 12 };
+
+/** Smaller icons on narrow screens so the 8-icon dock fits 360px wide. */
+function useBaseSize() {
+  const [base, setBase] = useState(() =>
+    typeof window !== "undefined" &&
+    window.matchMedia("(max-width: 400px)").matches
+      ? BASE_SIZE_COMPACT
+      : BASE_SIZE,
+  );
+  useEffect(() => {
+    const mq = window.matchMedia("(max-width: 400px)");
+    const update = () => setBase(mq.matches ? BASE_SIZE_COMPACT : BASE_SIZE);
+    update();
+    mq.addEventListener("change", update);
+    return () => mq.removeEventListener("change", update);
+  }, []);
+  return base;
+}
 
 interface DockContextValue {
   mouseX: MotionValue<number>;
   magnification: number;
   distance: number;
+  baseSize: number;
   register: (measure: () => void) => () => void;
 }
 
@@ -53,6 +73,7 @@ const Dock = ({
   distance = DEFAULT_DISTANCE,
 }: DockProps) => {
   const mouseX = useMotionValue(Infinity);
+  const baseSize = useBaseSize();
   const measurers = useRef(new Set<() => void>());
 
   const register = useCallback((measure: () => void) => {
@@ -68,7 +89,9 @@ const Dock = ({
   };
 
   return (
-    <DockContext.Provider value={{ mouseX, magnification, distance, register }}>
+    <DockContext.Provider
+      value={{ mouseX, magnification, distance, baseSize, register }}
+    >
       <motion.div
         onMouseMove={onMouseMove}
         onMouseLeave={() => mouseX.set(Infinity)}
@@ -104,7 +127,7 @@ const DockIconInner = ({
 }: DockIconProps & { context: DockContextValue }) => {
   const ref = useRef<HTMLDivElement>(null);
   const bounds = useRef({ x: 0, width: 0 });
-  const { mouseX, magnification, distance, register } = context;
+  const { mouseX, magnification, distance, baseSize, register } = context;
 
   useEffect(() => {
     const measure = () => {
@@ -124,7 +147,7 @@ const DockIconInner = ({
     useTransform(
       distanceCalc,
       [-distance, 0, distance],
-      [BASE_SIZE, magnification, BASE_SIZE],
+      [baseSize, magnification, baseSize],
     ),
     SPRING,
   );
@@ -132,7 +155,11 @@ const DockIconInner = ({
     useTransform(
       distanceCalc,
       [-distance, 0, distance],
-      [BASE_ICON_SIZE, magnification * ICON_SIZE_RATIO, BASE_ICON_SIZE],
+      [
+        baseSize * ICON_SIZE_RATIO,
+        magnification * ICON_SIZE_RATIO,
+        baseSize * ICON_SIZE_RATIO,
+      ],
     ),
     SPRING,
   );

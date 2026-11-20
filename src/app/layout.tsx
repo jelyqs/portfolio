@@ -9,6 +9,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import Script from "next/script";
 import "./globals.css";
 import { FlickeringGrid } from "@/components/magicui/flickering-grid-lazy";
+import { MotionProvider } from "@/components/motion-provider";
 import { ScrollProgress } from "@/components/scroll-progress";
 
 const geist = Geist({
@@ -155,29 +156,32 @@ export default function RootLayout({
           strategy="lazyOnload"
           data-cf-beacon='{"token": "31dc3199a13b400ab612f5d188549c8d"}'
         />
-        <ScrollProgress />
-        <ThemeProvider attribute="class" defaultTheme="dark">
-          <LocaleProvider>
-            <TooltipProvider delayDuration={0}>
-              <div className="absolute inset-0 top-0 left-0 right-0 h-25 overflow-hidden z-0">
-                <FlickeringGrid
-                  className="h-full w-full"
-                  squareSize={4}
-                  gridGap={4}
-                  style={{
-                    maskImage: "linear-gradient(to bottom, black, transparent)",
-                    WebkitMaskImage:
-                      "linear-gradient(to bottom, black, transparent)",
-                  }}
-                />
-              </div>
-              <div className="relative z-10 max-w-2xl mx-auto py-12 pb-24 sm:py-24 px-6">
-                {children}
-              </div>
-              <Navbar />
-            </TooltipProvider>
-          </LocaleProvider>
-        </ThemeProvider>
+        <MotionProvider>
+          <ScrollProgress />
+          <ThemeProvider attribute="class" defaultTheme="dark">
+            <LocaleProvider>
+              <TooltipProvider delayDuration={0}>
+                <div className="absolute inset-0 top-0 left-0 right-0 h-25 overflow-hidden z-0">
+                  <FlickeringGrid
+                    className="h-full w-full"
+                    squareSize={4}
+                    gridGap={4}
+                    style={{
+                      maskImage:
+                        "linear-gradient(to bottom, black, transparent)",
+                      WebkitMaskImage:
+                        "linear-gradient(to bottom, black, transparent)",
+                    }}
+                  />
+                </div>
+                <div className="relative z-10 max-w-2xl mx-auto py-12 pb-24 sm:py-24 px-6">
+                  {children}
+                </div>
+                <Navbar />
+              </TooltipProvider>
+            </LocaleProvider>
+          </ThemeProvider>
+        </MotionProvider>
       </body>
     </html>
   );

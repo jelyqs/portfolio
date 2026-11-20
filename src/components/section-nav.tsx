@@ -2,6 +2,7 @@
 
 import { useEffect, useRef, useState } from "react";
 import { List } from "lucide-react";
+import { AnimatePresence, motion } from "motion/react";
 import { DockIcon } from "@/components/magicui/dock";
 import { useLocale, useResume } from "@/i18n/locale-provider";
 import { cn } from "@/lib/utils";
@@ -78,8 +79,16 @@ export function SectionNav({ className }: { className?: string }) {
       {/* On narrow screens the popover would overflow the left edge if
           centered on the button (2nd icon from the left), so it aligns
           to the button's left edge instead; centered from sm up. */}
-      {open ? (
-        <div className="absolute bottom-full left-0 mb-3 w-52 rounded-xl border border-border bg-card p-1.5 shadow-xl sm:left-1/2 sm:-translate-x-1/2">
+      <AnimatePresence>
+        {open ? (
+          <motion.div
+            key="sections-popover"
+            initial={{ opacity: 0, scale: 0.95, y: 6 }}
+            animate={{ opacity: 1, scale: 1, y: 0 }}
+            exit={{ opacity: 0, scale: 0.95, y: 6 }}
+            transition={{ duration: 0.16, ease: "easeOut" }}
+            className="absolute bottom-full left-0 mb-3 w-52 origin-bottom rounded-xl border border-border bg-card p-1.5 shadow-xl sm:left-1/2 sm:-translate-x-1/2"
+          >
           {sections.map((section) => (
             <a
               key={section.id}
@@ -101,8 +110,9 @@ export function SectionNav({ className }: { className?: string }) {
               ) : null}
             </a>
           ))}
-        </div>
-      ) : null}
+          </motion.div>
+        ) : null}
+      </AnimatePresence>
       <DockIcon className={className}>
         <button
           type="button"

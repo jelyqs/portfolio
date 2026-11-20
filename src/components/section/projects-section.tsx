@@ -4,7 +4,6 @@ import BlurFade from "@/components/magicui/blur-fade";
 import { ProjectCard } from "@/components/project-card";
 import { useLocale, useResume } from "@/i18n/locale-provider";
 
-const BLUR_FADE_DELAY = 0.04;
 
 export default function ProjectsSection() {
   const { messages } = useLocale();
@@ -36,7 +35,7 @@ export default function ProjectsSection() {
           {data.projects.map((project, id) => (
             <BlurFade
               key={project.title}
-              delay={BLUR_FADE_DELAY * 12 + id * 0.05}
+              delay={id * 0.05}
               className="h-full"
             >
               <ProjectCard

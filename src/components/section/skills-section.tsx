@@ -18,6 +18,7 @@ import {
   Wrench,
   type LucideIcon,
 } from "lucide-react";
+import { SectionUnderline } from "@/components/section-underline";
 import { useLocale, useResume } from "@/i18n/locale-provider";
 
 const VISIBLE_COUNT = 10;
@@ -103,7 +104,7 @@ export default function SkillsSection() {
           <h2 className="text-xl font-bold">{title}</h2>
         </div>
         <p className="text-sm text-muted-foreground">{description}</p>
-        <div className="h-0.5 w-10 rounded-full bg-brand-accent/80" />
+        <SectionUnderline />
       </div>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">

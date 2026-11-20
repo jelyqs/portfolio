@@ -7,6 +7,7 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
+import { SectionUnderline } from "@/components/section-underline";
 import { TechTags } from "@/components/tech-tags";
 import { isActionableHref } from "@/lib/utils";
 import { useLocale, useResume } from "@/i18n/locale-provider";
@@ -83,7 +84,7 @@ export default function WorkSection() {
           <h2 className="text-xl font-bold">{messages.ui.experience}</h2>
         </div>
         <p className="text-sm text-muted-foreground">{description}</p>
-        <div className="h-0.5 w-10 rounded-full bg-brand-accent/80" />
+        <SectionUnderline />
       </div>
 
       <div className="flex flex-col gap-8">

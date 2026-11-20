@@ -18,7 +18,6 @@ import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { CountUp } from "@/components/count-up";
 
-const BLUR_FADE_DELAY = 0.04;
 
 function Portrait({
   src,
@@ -32,7 +31,7 @@ function Portrait({
   const [failed, setFailed] = useState(false);
 
   return (
-    <div className="relative size-24 overflow-hidden rounded-full border shadow-lg ring-4 ring-muted md:size-32">
+    <div className="relative size-24 overflow-hidden rounded-full border shadow-lg ring-4 ring-muted transition-shadow duration-300 hover:shadow-brand-accent/30 hover:ring-brand-accent/50 md:size-32">
       {failed ? (
         <span className="flex size-full items-center justify-center bg-muted text-lg font-medium">
           {initials}
@@ -63,7 +62,7 @@ export default function Page() {
         <div className="mx-auto w-full max-w-2xl space-y-8">
           <div className="gap-2 gap-y-6 flex flex-col md:flex-row justify-between">
             <div className="gap-2 flex flex-col order-2 md:order-1">
-              <h1 className="flex items-center gap-2">
+              <h1 className="hero-enter flex items-center gap-2">
                 <span className="inline-block whitespace-pre-line text-3xl font-semibold tracking-tighter sm:text-4xl lg:text-5xl">
                   {t(messages.ui.greeting, {
                     name: data.name.split(" ")[0],
@@ -74,13 +73,13 @@ export default function Page() {
                 </span>
               </h1>
               <div className="flex flex-col gap-2">
-                  <div className="prose prose-p:my-1 prose-a:text-brand-link max-w-150 text-muted-foreground md:text-lg lg:text-xl dark:prose-invert">
+                  <div className="hero-enter prose prose-p:my-1 prose-a:text-brand-link max-w-150 text-muted-foreground md:text-lg lg:text-xl dark:prose-invert" style={{ animationDelay: "0.08s" }}>
                     <RichText text={data.jobTitle} />
                   </div>
-                  <div className="prose prose-p:my-1 prose-a:text-brand-link max-w-150 text-base text-muted-foreground dark:prose-invert">
+                  <div className="hero-enter prose prose-p:my-1 prose-a:text-brand-link max-w-150 text-base text-muted-foreground dark:prose-invert" style={{ animationDelay: "0.16s" }}>
                     <RichText text={data.description} />
                   </div>
-                  <span className="inline-flex w-fit items-center gap-2 rounded-full border border-border bg-card/60 px-3 py-1 text-xs font-medium text-foreground">
+                  <span className="hero-enter inline-flex w-fit items-center gap-2 rounded-full border border-border bg-card/60 px-3 py-1 text-xs font-medium text-foreground" style={{ animationDelay: "0.24s" }}>
                     <span className="relative flex size-2">
                       <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-emerald-500 opacity-75" />
                       <span className="relative inline-flex size-2 rounded-full bg-emerald-500" />
@@ -88,7 +87,7 @@ export default function Page() {
                     {messages.ui.available}
                   </span>
                   {isActionableHref(data.resumeUrl) ? (
-                    <p className="text-sm text-muted-foreground">
+                    <p className="hero-enter text-sm text-muted-foreground" style={{ animationDelay: "0.3s" }}>
                       {messages.ui.resume}:{" "}
                       <Link
                         href={data.resumeUrl}
@@ -100,11 +99,11 @@ export default function Page() {
                       </Link>
                     </p>
                   ) : null}
-                  <div className="flex flex-wrap items-center gap-3 pt-1">
+                  <div className="hero-enter flex flex-wrap items-center gap-3 pt-1" style={{ animationDelay: "0.36s" }}>
                     <Button asChild size="lg">
-                      <a href="#contact">
+                      <a href="#contact" className="group">
                         <MessageCircle
-                          className="mr-2 size-4"
+                          className="mr-2 size-4 transition-transform duration-200 group-hover:-rotate-12 group-hover:scale-110 group-active:-rotate-12 group-active:scale-110"
                           aria-hidden
                         />
                         {messages.ui.hireMe}
@@ -113,13 +112,13 @@ export default function Page() {
                     <Button asChild size="lg" variant="outline">
                       <a href="#projects">
                         {messages.ui.viewProjects}
-                        <ArrowDown className="ml-2 size-4" aria-hidden />
+                        <ArrowDown className="animate-bob ml-2 size-4" aria-hidden />
                       </a>
                     </Button>
                   </div>
                 </div>
             </div>
-            <div className="order-1 md:order-2">
+            <div className="hero-enter order-1 md:order-2" style={{ animationDelay: "0.1s" }}>
               <Portrait
                 src={data.avatarUrl}
                 alt={data.name}
@@ -127,7 +126,7 @@ export default function Page() {
               />
             </div>
           </div>
-          <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
+          <div className="hero-enter grid grid-cols-2 sm:grid-cols-4 gap-3" style={{ animationDelay: "0.44s" }}>
               {data.stats.map((stat) => (
                 <div
                   key={stat.label}
@@ -146,10 +145,10 @@ export default function Page() {
       </section>
       <section id="about">
         <div className="flex min-h-0 flex-col gap-y-4">
-          <BlurFade delay={BLUR_FADE_DELAY * 3}>
+          <BlurFade>
             <h2 className="text-xl font-bold">{messages.ui.about}</h2>
           </BlurFade>
-          <BlurFade delay={BLUR_FADE_DELAY * 4}>
+          <BlurFade>
             <div className="prose max-w-full text-pretty font-sans leading-relaxed text-muted-foreground dark:prose-invert">
               <RichText text={data.summary} />
             </div>
@@ -158,17 +157,17 @@ export default function Page() {
       </section>
       <section id="work">
         <div className="flex min-h-0 flex-col gap-y-8">
-          <BlurFade delay={BLUR_FADE_DELAY * 5}>
+          <BlurFade>
             <WorkSection />
           </BlurFade>
-          <BlurFade delay={BLUR_FADE_DELAY * 6}>
+          <BlurFade>
             <FreelanceSection />
           </BlurFade>
         </div>
       </section>
       <section id="education">
         <div className="flex min-h-0 flex-col gap-y-6">
-          <BlurFade delay={BLUR_FADE_DELAY * 7}>
+          <BlurFade>
             <h2 className="text-xl font-bold">{messages.ui.education}</h2>
           </BlurFade>
           <div className="flex flex-col gap-8">
@@ -219,7 +218,7 @@ export default function Page() {
               return (
                 <BlurFade
                   key={education.school}
-                  delay={BLUR_FADE_DELAY * 8 + index * 0.05}
+                  delay={index * 0.05}
                 >
                   {isActionableHref(education.href) ? (
                     <Link
@@ -242,24 +241,24 @@ export default function Page() {
         </div>
       </section>
       <section id="skills">
-        <BlurFade delay={BLUR_FADE_DELAY * 9}>
+        <BlurFade>
           <SkillsSection />
         </BlurFade>
       </section>
       <section id="projects">
-        <BlurFade delay={BLUR_FADE_DELAY * 11}>
+        <BlurFade>
           <ProjectsSection />
         </BlurFade>
       </section>
       {data.hackathons.length > 0 ? (
         <section id="hackathons">
-          <BlurFade delay={BLUR_FADE_DELAY * 13}>
+          <BlurFade>
             <HackathonsSection />
           </BlurFade>
         </section>
       ) : null}
       <section id="contact">
-        <BlurFade delay={BLUR_FADE_DELAY * 16}>
+        <BlurFade>
           <ContactSection />
         </BlurFade>
       </section>

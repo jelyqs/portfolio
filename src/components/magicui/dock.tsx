@@ -38,6 +38,27 @@ const BASE_SIZE_COMPACT = 36;
 const ICON_SIZE_RATIO = 0.5;
 const SPRING = { mass: 0.1, stiffness: 150, damping: 12 };
 
+/**
+ * Touch devices have no hover (iPhone-style): magnification is a mouse
+ * interaction, so on touch the dock stays flat and icons only react to
+ * being pressed (whileTap) instead of zooming and getting stuck zoomed.
+ */
+function useNoHover() {
+  const [noHover, setNoHover] = useState(
+    () =>
+      typeof window !== "undefined" &&
+      window.matchMedia("(hover: none)").matches,
+  );
+  useEffect(() => {
+    const mq = window.matchMedia("(hover: none)");
+    const update = () => setNoHover(mq.matches);
+    update();
+    mq.addEventListener("change", update);
+    return () => mq.removeEventListener("change", update);
+  }, []);
+  return noHover;
+}
+
 /** Smaller icons on narrow screens so the 8-icon dock fits 360px wide. */
 function useBaseSize() {
   const [base, setBase] = useState(() =>
@@ -74,6 +95,9 @@ const Dock = ({
 }: DockProps) => {
   const mouseX = useMotionValue(Infinity);
   const baseSize = useBaseSize();
+  const noHover = useNoHover();
+  // Flat (no magnification) on touch devices; full magnification on mouse.
+  const effectiveMagnification = noHover ? baseSize : magnification;
   const measurers = useRef(new Set<() => void>());
 
   const register = useCallback((measure: () => void) => {
@@ -90,11 +114,17 @@ const Dock = ({
 
   return (
     <DockContext.Provider
-      value={{ mouseX, magnification, distance, baseSize, register }}
+      value={{
+        mouseX,
+        magnification: effectiveMagnification,
+        distance,
+        baseSize,
+        register,
+      }}
     >
       <motion.div
-        onMouseMove={onMouseMove}
-        onMouseLeave={() => mouseX.set(Infinity)}
+        onMouseMove={noHover ? undefined : onMouseMove}
+        onMouseLeave={noHover ? undefined : () => mouseX.set(Infinity)}
         className={cn(
           "mx-auto flex h-full w-max items-end justify-center overflow-visible rounded-full border",
           className,
@@ -168,6 +198,7 @@ const DockIconInner = ({
     <motion.div
       ref={ref}
       style={{ width: containerSize, height: containerSize }}
+      whileTap={{ scale: 0.9 }}
       className={cn(
         "relative flex aspect-square shrink-0 items-center justify-center rounded-full",
         className,

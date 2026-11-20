@@ -23,6 +23,7 @@ export const AGENT_PROFILE = {
   github: "https://github.com/jelyqs",
   facebook: "https://www.facebook.com/Jely.Big/",
   whatsapp: "https://wa.me/84359399320",
+  linkedin: "https://www.linkedin.com/in/thu-nguyen-69aa35245",
   itch: "https://jelyqs.itch.io",
   resume: "https://jelyqs.github.io/resume.pdf",
 };
@@ -228,6 +229,7 @@ export function buildPortfolioMarkdown(): string {
     `- GitHub: ${p.github}`,
     `- Facebook: ${p.facebook}`,
     `- WhatsApp: ${p.whatsapp}`,
+    `- LinkedIn: ${p.linkedin}`,
     `- itch.io: ${p.itch}`,
     "",
     "## Machine-readable versions",

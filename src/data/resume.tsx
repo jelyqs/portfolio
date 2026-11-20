@@ -264,6 +264,12 @@ My expertise spans the full stack, from creating intuitive user interfaces with 
         icon: Icons.whatsapp,
         navbar: true,
       },
+      LinkedIn: {
+        name: "LinkedIn",
+        url: "https://www.linkedin.com/in/thu-nguyen-69aa35245",
+        icon: Icons.linkedin,
+        navbar: true,
+      },
       Itch: {
         name: "itch.io",
         url: "https://jelyqs.itch.io",

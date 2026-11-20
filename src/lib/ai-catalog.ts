@@ -141,7 +141,7 @@ export function buildAiCatalog() {
       {
         name: "contact",
         description:
-          "Find how to contact Thu Nguyen (email, phone, GitHub, Facebook, WhatsApp).",
+          "Find how to contact Thu Nguyen (email, phone, GitHub, Facebook, WhatsApp, LinkedIn).",
         endpoints: [`${url}/auth.md`, `${url}/mcp`],
       },
       {
